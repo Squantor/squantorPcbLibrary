@@ -74,6 +74,12 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <library>
+<description>Squantor IC library&lt;br&gt;
+&lt;br&gt;
+Various IC's used in various projects. 
+TODO silkscreen checks for PCB manufacturing.&lt;br&gt;
+&lt;br&gt;
+Contains regulators, drivers etcetera, more complex ICS</description>
 <packages>
 <package name="SOT23-5">
 <wire x1="1.4224" y1="0.8104" x2="1.4224" y2="-0.8104" width="0.1524" layer="21"/>

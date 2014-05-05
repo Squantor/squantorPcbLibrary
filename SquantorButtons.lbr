@@ -55,6 +55,10 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>Squantor Buttons library&lt;br&gt;
+&lt;br&gt;
+Buttons used in various projects, usually sourced from local dutch and chinese vendors.
+TODO silkscreen checks for PCB manufacturing.</description>
 <packages>
 <package name="FUTURLEC_RAISED_TACTILE">
 <wire x1="-3.2" y1="-5.08" x2="3.2" y2="-5.08" width="0.127" layer="21"/>
