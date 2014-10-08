@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10011,6 +10011,7 @@ This is a side bnc connection used for panel mount BNC connectors. A lot of spac
 <rectangle x1="2.38125" y1="0.47625" x2="2.69875" y2="0.79375" layer="51"/>
 <rectangle x1="1.11125" y1="-0.79375" x2="1.42875" y2="-0.47625" layer="51"/>
 <rectangle x1="2.38125" y1="-0.79375" x2="2.69875" y2="-0.47625" layer="51"/>
+<text x="-4.445" y="-1.27" size="1.27" layer="21">1</text>
 </package>
 <package name="1X11_SMALL">
 <wire x1="9.525" y1="1.27" x2="10.795" y2="1.27" width="0.1524" layer="21"/>
