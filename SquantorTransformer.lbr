@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -62,14 +62,14 @@
 <wire x1="20.6375" y1="16.66875" x2="20.6375" y2="-16.66875" width="0.4064" layer="21"/>
 <wire x1="20.6375" y1="-16.66875" x2="-20.6375" y2="-16.66875" width="0.4064" layer="21"/>
 <wire x1="-20.6375" y1="-16.66875" x2="-20.6375" y2="16.66875" width="0.4064" layer="21"/>
-<pad name="SEC2,2" x="-8.255" y="-12.7" drill="0.9" diameter="2.54" shape="octagon" rot="R90"/>
-<pad name="SEC2,1" x="-3.175" y="-12.7" drill="0.9" diameter="2.54" shape="octagon" rot="R90"/>
-<pad name="SEC1,2" x="3.175" y="-12.7" drill="0.9" diameter="2.54" shape="octagon" rot="R90"/>
-<pad name="SEC1,1" x="8.255" y="-12.7" drill="0.9" diameter="2.54" shape="octagon" rot="R90"/>
-<pad name="PRI1,1" x="8.255" y="12.7" drill="0.9" diameter="2.54" shape="octagon" rot="R90"/>
-<pad name="PRI1,2" x="3.175" y="12.7" drill="0.9" diameter="2.54" shape="octagon" rot="R90"/>
-<pad name="PRI2,1" x="-3.175" y="12.7" drill="0.9" diameter="2.54" shape="octagon" rot="R90"/>
-<pad name="PRI2,2" x="-8.255" y="12.7" drill="0.9" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="SEC2,2" x="-8.255" y="-12.7" drill="1.1" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="SEC2,1" x="-3.175" y="-12.7" drill="1.1" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="SEC1,2" x="3.175" y="-12.7" drill="1.1" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="SEC1,1" x="8.255" y="-12.7" drill="1.1" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="PRI1,1" x="8.255" y="12.7" drill="1.1" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="PRI1,2" x="3.175" y="12.7" drill="1.1" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="PRI2,1" x="-3.175" y="12.7" drill="1.1" diameter="2.54" shape="octagon" rot="R90"/>
+<pad name="PRI2,2" x="-8.255" y="12.7" drill="1.1" diameter="2.54" shape="octagon" rot="R90"/>
 <text x="11.43" y="17.78" size="1.778" layer="21" font="vector" ratio="15">PRIMARY</text>
 <text x="-20.32" y="-19.05" size="1.778" layer="21" font="vector" ratio="15">SECONDARY </text>
 </package>
