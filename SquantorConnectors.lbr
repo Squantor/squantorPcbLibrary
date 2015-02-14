@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9710,8 +9710,8 @@ This is done to accomodate larger via tubes from bungard</description>
 </package>
 <package name="FASTON_5.08">
 <wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.8128" layer="21"/>
-<pad name="1" x="0" y="2.54" drill="1.3" shape="octagon"/>
-<pad name="2" x="0" y="-2.54" drill="1.3" shape="octagon"/>
+<pad name="1" x="0" y="2.54" drill="1.6" shape="octagon"/>
+<pad name="2" x="0" y="-2.54" drill="1.6" shape="octagon"/>
 </package>
 <package name="FLATFLEX50_05_PROTO">
 <smd name="25" x="-0.25" y="0" dx="10" dy="0.25" layer="1" rot="R90"/>
