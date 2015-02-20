@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -347,6 +347,73 @@
 <wire x1="25.4" y1="12.7" x2="-25.4" y2="12.7" width="0.254" layer="94"/>
 <text x="-25.4" y="-2.54" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
+<symbol name="LPC82XM101JDH20">
+<wire x1="-27.94" y1="12.7" x2="-27.94" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-15.24" x2="27.94" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-15.24" x2="27.94" y2="12.7" width="0.254" layer="94"/>
+<wire x1="27.94" y1="12.7" x2="-27.94" y2="12.7" width="0.254" layer="94"/>
+<text x="-27.94" y="-17.78" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PIO0_23/ADC_3/ACMP_I4" x="-30.48" y="10.16" length="short"/>
+<pin name="PIO0_17/ADC_9" x="-30.48" y="7.62" length="short"/>
+<pin name="PIO0_13/ADC_10" x="-30.48" y="5.08" length="short"/>
+<pin name="PIO0_12" x="-30.48" y="2.54" length="short"/>
+<pin name="RESET/PIO0_5" x="-30.48" y="0" length="short"/>
+<pin name="PIO0_4/ADC_11/WAKEUP/TRST" x="-30.48" y="-2.54" length="short"/>
+<pin name="SWCLK/PIO0_3/TCK" x="-30.48" y="-5.08" length="short"/>
+<pin name="SWDIO/PIO0_2/TMS" x="-30.48" y="-7.62" length="short"/>
+<pin name="PIO0_11/I2C0_SDA" x="-30.48" y="-10.16" length="short"/>
+<pin name="PIO0_10/I2C0_SCL" x="-30.48" y="-12.7" length="short"/>
+<pin name="PIO0_15" x="30.48" y="-12.7" length="short" rot="R180"/>
+<pin name="PIO0_1/ACMP_I2/CLKIN/TDI" x="30.48" y="-10.16" length="short" rot="R180"/>
+<pin name="PIO0_9/XTALOUT" x="30.48" y="-7.62" length="short" rot="R180"/>
+<pin name="PIO0_8/XTALIN" x="30.48" y="-5.08" length="short" rot="R180"/>
+<pin name="VDD" x="30.48" y="-2.54" length="short" rot="R180"/>
+<pin name="VSS" x="30.48" y="0" length="short" rot="R180"/>
+<pin name="VREFN" x="30.48" y="2.54" length="short" rot="R180"/>
+<pin name="VREFP" x="30.48" y="5.08" length="short" rot="R180"/>
+<pin name="PIO0_0/ACMP_I1/TDO" x="30.48" y="7.62" length="short" rot="R180"/>
+<pin name="PIO0_14/ADC_2/ACMP_I3" x="30.48" y="10.16" length="short" rot="R180"/>
+</symbol>
+<symbol name="LPC82XM101JHI33">
+<wire x1="-27.94" y1="22.86" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-22.86" x2="27.94" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-22.86" x2="27.94" y2="22.86" width="0.254" layer="94"/>
+<wire x1="27.94" y1="22.86" x2="-27.94" y2="22.86" width="0.254" layer="94"/>
+<text x="-25.4" y="-25.4" size="1.27" layer="95">&gt;NAME</text>
+<pin name="PIO0_13/ADC_10" x="-30.48" y="20.32" length="short"/>
+<pin name="PIO0_12" x="-30.48" y="17.78" length="short"/>
+<pin name="PIO0_5/RESET" x="-30.48" y="15.24" length="short"/>
+<pin name="PIO0_4/ADC_11/TRST" x="-30.48" y="12.7" length="short"/>
+<pin name="PIO0_28/WKTCLKIN" x="-30.48" y="10.16" length="short"/>
+<pin name="SWCLK/PIO0_3/TCK" x="-30.48" y="7.62" length="short"/>
+<pin name="SWDIO/PIO0_2/TMS" x="-30.48" y="5.08" length="short"/>
+<pin name="PIO0_11/I2C0_SDA" x="-30.48" y="2.54" length="short"/>
+<pin name="PIO0_10/I2C0_SCL" x="-30.48" y="-2.54" length="short"/>
+<pin name="PIO0_16" x="-30.48" y="-5.08" length="short"/>
+<pin name="PIO0_27" x="-30.48" y="-7.62" length="short"/>
+<pin name="PIO0_26" x="-30.48" y="-10.16" length="short"/>
+<pin name="PIO0_25" x="-30.48" y="-12.7" length="short"/>
+<pin name="PIO0_24" x="-30.48" y="-15.24" length="short"/>
+<pin name="PIO0_15" x="-30.48" y="-17.78" length="short"/>
+<pin name="PIO0_1/ACMP_I2/CLKIN/TDI" x="-30.48" y="-20.32" length="short"/>
+<pin name="PIO0_9/XTALOUT" x="30.48" y="-20.32" length="short" rot="R180"/>
+<pin name="PIO0_8/XTALIN" x="30.48" y="-17.78" length="short" rot="R180"/>
+<pin name="VDD" x="30.48" y="-15.24" length="short" rot="R180"/>
+<pin name="VREFN" x="30.48" y="-12.7" length="short" rot="R180"/>
+<pin name="VREFP" x="30.48" y="-10.16" length="short" rot="R180"/>
+<pin name="PIO0_7/ADC_0" x="30.48" y="-7.62" length="short" rot="R180"/>
+<pin name="PIO0_6/ADC_1/VDDCMP" x="30.48" y="-5.08" length="short" rot="R180"/>
+<pin name="PIO0_0/ACMP_I1/TDO" x="30.48" y="-2.54" length="short" rot="R180"/>
+<pin name="PIO0_14/ADC_2/ACMP_I3" x="30.48" y="2.54" length="short" rot="R180"/>
+<pin name="PIO0_23/ADC_3/ACMP_I4" x="30.48" y="5.08" length="short" rot="R180"/>
+<pin name="PIO0_22/ADC_4" x="30.48" y="7.62" length="short" rot="R180"/>
+<pin name="PIO0_21/ADC_5" x="30.48" y="10.16" length="short" rot="R180"/>
+<pin name="PIO0_20/ADC_6" x="30.48" y="12.7" length="short" rot="R180"/>
+<pin name="PIO0_19/ADC_7" x="30.48" y="15.24" length="short" rot="R180"/>
+<pin name="PIO0_18/ADC_8" x="30.48" y="17.78" length="short" rot="R180"/>
+<pin name="PIO0_17/ADC_9" x="30.48" y="20.32" length="short" rot="R180"/>
+<pin name="VSS" x="5.08" y="-25.4" length="short" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LPC812M101JDH16">
@@ -491,6 +558,40 @@
 <connect gate="G$1" pin="PIO0_8/XTALIN" pad="14"/>
 <connect gate="G$1" pin="PIO0_9/XTALOUT" pad="13"/>
 <connect gate="G$1" pin="VDD" pad="15"/>
+<connect gate="G$1" pin="VSS" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LPC82XM101JDH20">
+<gates>
+<gate name="G$1" symbol="LPC82XM101JDH20" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSSOP20">
+<connects>
+<connect gate="G$1" pin="PIO0_0/ACMP_I1/TDO" pad="19"/>
+<connect gate="G$1" pin="PIO0_1/ACMP_I2/CLKIN/TDI" pad="12"/>
+<connect gate="G$1" pin="PIO0_10/I2C0_SCL" pad="10"/>
+<connect gate="G$1" pin="PIO0_11/I2C0_SDA" pad="9"/>
+<connect gate="G$1" pin="PIO0_12" pad="4"/>
+<connect gate="G$1" pin="PIO0_13/ADC_10" pad="3"/>
+<connect gate="G$1" pin="PIO0_14/ADC_2/ACMP_I3" pad="20"/>
+<connect gate="G$1" pin="PIO0_15" pad="11"/>
+<connect gate="G$1" pin="PIO0_17/ADC_9" pad="2"/>
+<connect gate="G$1" pin="PIO0_23/ADC_3/ACMP_I4" pad="1"/>
+<connect gate="G$1" pin="PIO0_4/ADC_11/WAKEUP/TRST" pad="6"/>
+<connect gate="G$1" pin="PIO0_8/XTALIN" pad="14"/>
+<connect gate="G$1" pin="PIO0_9/XTALOUT" pad="13"/>
+<connect gate="G$1" pin="RESET/PIO0_5" pad="5"/>
+<connect gate="G$1" pin="SWCLK/PIO0_3/TCK" pad="7"/>
+<connect gate="G$1" pin="SWDIO/PIO0_2/TMS" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="15"/>
+<connect gate="G$1" pin="VREFN" pad="17"/>
+<connect gate="G$1" pin="VREFP" pad="18"/>
 <connect gate="G$1" pin="VSS" pad="16"/>
 </connects>
 <technologies>
