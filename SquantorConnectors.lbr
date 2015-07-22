@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10455,6 +10455,39 @@ This is a side bnc connection used for panel mount BNC connectors. A lot of spac
 <wire x1="1" y1="1" x2="4" y2="1" width="0.4064" layer="21"/>
 <wire x1="4" y1="1" x2="4" y2="11" width="0.4064" layer="21"/>
 </package>
+<package name="SDCMF-10915W010">
+<wire x1="-12.7" y1="12.7" x2="11.684" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-3.556" x2="-11.43" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-3.556" x2="12.192" y2="-3.556" width="0.127" layer="20"/>
+<wire x1="12.192" y1="-3.556" x2="13.462" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="13.462" y1="-3.556" x2="13.462" y2="5.334" width="0.127" layer="21"/>
+<wire x1="11.684" y1="12.7" x2="11.684" y2="7.62" width="0.127" layer="21"/>
+<wire x1="11.684" y1="7.62" x2="13.462" y2="5.334" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-12.192" x2="-11.43" y2="-11.684" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-3.556" x2="-11.43" y2="-23.368" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-23.368" x2="12.192" y2="-23.368" width="0.127" layer="21"/>
+<wire x1="12.192" y1="-23.368" x2="12.192" y2="-3.556" width="0.127" layer="21"/>
+<smd name="15" x="-13.208" y="11.43" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="14" x="-13.208" y="-2.54" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="13" x="13.97" y="-2.54" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="12" x="12.192" y="11.43" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="10" x="-11.938" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="11" x="-10.668" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="8" x="-9.398" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="7" x="-7.874" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="6" x="-5.334" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="5" x="-2.794" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="4" x="-0.254" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="3" x="2.286" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="2" x="4.826" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="1" x="7.366" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<smd name="9" x="9.906" y="13.462" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
+<text x="3.302" y="-16.764" size="1.27" layer="21" rot="R180">SDCard</text>
+<text x="-7.62" y="5.08" size="1.27" layer="22">Amphenol MMC/SD</text>
+<hole x="9.906" y="10.414" drill="1.6"/>
+<hole x="-11.176" y="10.414" drill="1.1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SMDPINH2X5">
@@ -12034,6 +12067,27 @@ This is a side bnc connection used for panel mount BNC connectors. A lot of spac
 <pin name="58" x="0" y="-81.28" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="59" x="0" y="-83.82" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="60" x="0" y="-86.36" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+<symbol name="SDCARD_SYMBOL">
+<wire x1="-12.7" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<pin name="DAT0" x="-2.54" y="-12.7" length="short" rot="R90"/>
+<pin name="DAT1" x="0" y="-12.7" length="short" rot="R90"/>
+<pin name="DAT2" x="2.54" y="-12.7" length="short" rot="R90"/>
+<pin name="CD/DAT3" x="5.08" y="-12.7" length="short" rot="R90"/>
+<pin name="CMD/DI" x="7.62" y="-12.7" length="short" rot="R90"/>
+<pin name="CLK/SCLK" x="12.7" y="-12.7" length="short" rot="R90"/>
+<pin name="GND1" x="5.08" y="15.24" length="short" direction="pwr" rot="R270"/>
+<pin name="GND2" x="7.62" y="15.24" length="short" direction="pwr" rot="R270"/>
+<pin name="GND3" x="10.16" y="15.24" length="short" direction="pwr" rot="R270"/>
+<pin name="GND4" x="12.7" y="15.24" length="short" direction="pwr" rot="R270"/>
+<pin name="VSS2" x="-15.24" y="10.16" length="short" direction="pwr"/>
+<pin name="VSS1" x="-15.24" y="7.62" length="short" direction="pwr"/>
+<pin name="VDD" x="-15.24" y="5.08" length="short" direction="pwr"/>
+<pin name="WP" x="-15.24" y="-7.62" length="short" direction="out"/>
+<pin name="CDI#" x="-15.24" y="-5.08" length="short" direction="out"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15248,6 +15302,37 @@ This is a side bnc connection used for panel mount BNC connectors. A lot of spac
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SDCARD" uservalue="yes">
+<description>SD card connector
+KINGFONT SDCMF-10915W010</description>
+<gates>
+<gate name="G$1" symbol="SDCARD_SYMBOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="VAR2" package="SDCMF-10915W010">
+<connects>
+<connect gate="G$1" pin="CD/DAT3" pad="1"/>
+<connect gate="G$1" pin="CDI#" pad="11"/>
+<connect gate="G$1" pin="CLK/SCLK" pad="5"/>
+<connect gate="G$1" pin="CMD/DI" pad="2"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="9"/>
+<connect gate="G$1" pin="GND1" pad="12"/>
+<connect gate="G$1" pin="GND2" pad="13"/>
+<connect gate="G$1" pin="GND3" pad="14"/>
+<connect gate="G$1" pin="GND4" pad="15"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS1" pad="3"/>
+<connect gate="G$1" pin="VSS2" pad="6"/>
+<connect gate="G$1" pin="WP" pad="10"/>
 </connects>
 <technologies>
 <technology name=""/>
