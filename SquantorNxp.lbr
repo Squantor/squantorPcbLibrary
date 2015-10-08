@@ -1373,14 +1373,6 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <pin name="PIO0_4" x="17.78" y="15.24" length="short" rot="R180"/>
 <pin name="PIO0_7" x="17.78" y="17.78" length="short" rot="R180"/>
 </symbol>
-<symbol name="LPC1114JBD48">
-<wire x1="-17.78" y1="10.16" x2="-17.78" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="-17.78" y2="10.16" width="0.254" layer="94"/>
-<text x="5.08" y="-16.51" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<text x="-18.034" y="11.43" size="1.778" layer="96" font="vector">&gt;NAME</text>
-</symbol>
 <symbol name="PCA82C250">
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
@@ -1396,6 +1388,131 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <pin name="CANL" x="10.16" y="-2.54" length="short" rot="R180"/>
 <pin name="CANH" x="10.16" y="0" length="short" rot="R180"/>
 <pin name="RS" x="10.16" y="2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="LPC1114FBD48">
+<wire x1="-15.24" y1="33.02" x2="-15.24" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-33.02" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-33.02" x2="15.24" y2="33.02" width="0.254" layer="94"/>
+<wire x1="15.24" y1="33.02" x2="-15.24" y2="33.02" width="0.254" layer="94"/>
+<text x="-15.24" y="-38.1" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-15.24" y="38.1" size="1.778" layer="96" font="vector">&gt;NAME</text>
+<pin name="PIO2_6" x="-17.78" y="30.48" length="short"/>
+<pin name="PIO2_0" x="-17.78" y="27.94" length="short"/>
+<pin name="PIO0_0/RESET" x="-17.78" y="25.4" length="short"/>
+<pin name="PIO0_1" x="-17.78" y="22.86" length="short"/>
+<pin name="VSS@5" x="-17.78" y="20.32" length="short"/>
+<pin name="XTALIN" x="-17.78" y="17.78" length="short"/>
+<pin name="XTALOUT" x="-17.78" y="15.24" length="short"/>
+<pin name="VDD@8" x="-17.78" y="12.7" length="short"/>
+<pin name="PIO1_8" x="-17.78" y="10.16" length="short"/>
+<pin name="PIO0_2" x="-17.78" y="7.62" length="short"/>
+<pin name="PIO2_7" x="-17.78" y="5.08" length="short"/>
+<pin name="PIO2_8" x="-17.78" y="2.54" length="short"/>
+<pin name="PIO2_1" x="-17.78" y="-2.54" length="short"/>
+<pin name="PIO0_3" x="-17.78" y="-5.08" length="short"/>
+<pin name="PIO0_4" x="-17.78" y="-7.62" length="short"/>
+<pin name="PIO0_5" x="-17.78" y="-10.16" length="short"/>
+<pin name="PIO1_9" x="-17.78" y="-12.7" length="short"/>
+<pin name="PIO3_4" x="-17.78" y="-15.24" length="short"/>
+<pin name="PIO2_4" x="-17.78" y="-17.78" length="short"/>
+<pin name="PIO2_5" x="-17.78" y="-20.32" length="short"/>
+<pin name="PIO3_5" x="-17.78" y="-22.86" length="short"/>
+<pin name="PIO0_6" x="-17.78" y="-25.4" length="short"/>
+<pin name="PIO0_7" x="-17.78" y="-27.94" length="short"/>
+<pin name="PIO2_9" x="-17.78" y="-30.48" length="short"/>
+<pin name="PIO2_10" x="17.78" y="-30.48" length="short" rot="R180"/>
+<pin name="PIO2_2" x="17.78" y="-27.94" length="short" rot="R180"/>
+<pin name="PIO0_8" x="17.78" y="-25.4" length="short" rot="R180"/>
+<pin name="PIO0_9" x="17.78" y="-22.86" length="short" rot="R180"/>
+<pin name="PIO0_10/SWCLK" x="17.78" y="-20.32" length="short" rot="R180"/>
+<pin name="PIO1_10" x="17.78" y="-17.78" length="short" rot="R180"/>
+<pin name="PIO2_11" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="PIO0_11" x="17.78" y="-12.7" length="short" rot="R180"/>
+<pin name="PIO1_0" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="PIO1_1" x="17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="PIO1_2" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="PIO3_0" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="PIO3_1" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="PIO2_3" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="PIO1_3/SWDIO" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="PIO1_4" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="VSS@41" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="PIO1_11" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="PIO3_2" x="17.78" y="17.78" length="short" rot="R180"/>
+<pin name="VDD@44" x="17.78" y="20.32" length="short" rot="R180"/>
+<pin name="PIO1_5" x="17.78" y="22.86" length="short" rot="R180"/>
+<pin name="PIO1_6" x="17.78" y="25.4" length="short" rot="R180"/>
+<pin name="PIO1_7" x="17.78" y="27.94" length="short" rot="R180"/>
+<pin name="PIO3_3" x="17.78" y="30.48" length="short" rot="R180"/>
+</symbol>
+<symbol name="LPC824M201JHI33">
+<wire x1="-15.24" y1="22.86" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-22.86" x2="15.24" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-22.86" x2="15.24" y2="22.86" width="0.254" layer="94"/>
+<wire x1="15.24" y1="22.86" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
+<text x="-15.24" y="-27.94" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-15.24" y="27.94" size="1.778" layer="96" font="vector">&gt;NAME</text>
+<pin name="PIO0_13" x="-17.78" y="20.32" length="short"/>
+<pin name="PIO0_12" x="-17.78" y="17.78" length="short"/>
+<pin name="PIO0_5/RESET" x="-17.78" y="15.24" length="short"/>
+<pin name="PIO0_4" x="-17.78" y="12.7" length="short"/>
+<pin name="PIO0_28" x="-17.78" y="10.16" length="short"/>
+<pin name="PIO0_3/SWCLK" x="-17.78" y="7.62" length="short"/>
+<pin name="PIO0_2/SWDIO" x="-17.78" y="5.08" length="short"/>
+<pin name="PIO0_11" x="-17.78" y="2.54" length="short"/>
+<pin name="PIO0_10" x="-17.78" y="-2.54" length="short"/>
+<pin name="PIO0_16" x="-17.78" y="-5.08" length="short"/>
+<pin name="PIO0_27" x="-17.78" y="-7.62" length="short"/>
+<pin name="PIO0_26" x="-17.78" y="-10.16" length="short"/>
+<pin name="PIO0_25" x="-17.78" y="-12.7" length="short"/>
+<pin name="PIO0_24" x="-17.78" y="-15.24" length="short"/>
+<pin name="PIO0_15" x="-17.78" y="-17.78" length="short"/>
+<pin name="PIO0_1" x="-17.78" y="-20.32" length="short"/>
+<pin name="PIO0_9" x="17.78" y="-20.32" length="short" rot="R180"/>
+<pin name="PIO0_8" x="17.78" y="-17.78" length="short" rot="R180"/>
+<pin name="VDD" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="VREFN" x="17.78" y="-12.7" length="short" rot="R180"/>
+<pin name="VREFP" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="PIO0_7" x="17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="PIO0_6" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="PIO0_0" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="PIO0_14" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="PIO0_23" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="PIO0_22" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="PIO0_21" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="PIO0_20" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="PIO0_19" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="PIO0_18" x="17.78" y="17.78" length="short" rot="R180"/>
+<pin name="PIO0_17" x="17.78" y="20.32" length="short" rot="R180"/>
+<pin name="VSS" x="0" y="-25.4" length="short" rot="R90"/>
+</symbol>
+<symbol name="LPC824M201JDH20">
+<wire x1="-15.24" y1="22.86" x2="-15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="22.86" width="0.254" layer="94"/>
+<wire x1="15.24" y1="22.86" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
+<text x="-15.24" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-15.24" y="27.94" size="1.778" layer="96" font="vector">&gt;NAME</text>
+<pin name="PIO0_23" x="-17.78" y="20.32" length="short"/>
+<pin name="PIO0_17" x="-17.78" y="17.78" length="short"/>
+<pin name="PIO0_13" x="-17.78" y="15.24" length="short"/>
+<pin name="PIO0_12" x="-17.78" y="12.7" length="short"/>
+<pin name="PIO0_5/RESET" x="-17.78" y="10.16" length="short"/>
+<pin name="PIO0_4" x="-17.78" y="7.62" length="short"/>
+<pin name="PIO0_3/SWCLK" x="-17.78" y="5.08" length="short"/>
+<pin name="PIO0_2/SWDIO" x="-17.78" y="2.54" length="short"/>
+<pin name="PIO0_11" x="-17.78" y="0" length="short"/>
+<pin name="PIO0_10" x="-17.78" y="-2.54" length="short"/>
+<pin name="PIO0_15" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="PIO0_1" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="PIO0_9" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="PIO0_8" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="VDD" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="VSS" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="VREFN" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="VREFP" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="PIO0_0" x="17.78" y="17.78" length="short" rot="R180"/>
+<pin name="PIO0_14" x="17.78" y="20.32" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1882,6 +1999,149 @@ Footprint according to NXP SOT313-2 specification, however the cornerpins are 0.
 <connect gate="G$1" pin="TXD" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="3"/>
 <connect gate="G$1" pin="VREF" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LPC1114FBD48">
+<gates>
+<gate name="G$1" symbol="LPC1114FBD48" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT313-2">
+<connects>
+<connect gate="G$1" pin="PIO0_0/RESET" pad="3"/>
+<connect gate="G$1" pin="PIO0_1" pad="4"/>
+<connect gate="G$1" pin="PIO0_10/SWCLK" pad="29"/>
+<connect gate="G$1" pin="PIO0_11" pad="32"/>
+<connect gate="G$1" pin="PIO0_2" pad="10"/>
+<connect gate="G$1" pin="PIO0_3" pad="14"/>
+<connect gate="G$1" pin="PIO0_4" pad="15"/>
+<connect gate="G$1" pin="PIO0_5" pad="16"/>
+<connect gate="G$1" pin="PIO0_6" pad="22"/>
+<connect gate="G$1" pin="PIO0_7" pad="23"/>
+<connect gate="G$1" pin="PIO0_8" pad="27"/>
+<connect gate="G$1" pin="PIO0_9" pad="28"/>
+<connect gate="G$1" pin="PIO1_0" pad="33"/>
+<connect gate="G$1" pin="PIO1_1" pad="34"/>
+<connect gate="G$1" pin="PIO1_10" pad="30"/>
+<connect gate="G$1" pin="PIO1_11" pad="42"/>
+<connect gate="G$1" pin="PIO1_2" pad="35"/>
+<connect gate="G$1" pin="PIO1_3/SWDIO" pad="39"/>
+<connect gate="G$1" pin="PIO1_4" pad="40"/>
+<connect gate="G$1" pin="PIO1_5" pad="45"/>
+<connect gate="G$1" pin="PIO1_6" pad="46"/>
+<connect gate="G$1" pin="PIO1_7" pad="47"/>
+<connect gate="G$1" pin="PIO1_8" pad="9"/>
+<connect gate="G$1" pin="PIO1_9" pad="17"/>
+<connect gate="G$1" pin="PIO2_0" pad="2"/>
+<connect gate="G$1" pin="PIO2_1" pad="13"/>
+<connect gate="G$1" pin="PIO2_10" pad="25"/>
+<connect gate="G$1" pin="PIO2_11" pad="31"/>
+<connect gate="G$1" pin="PIO2_2" pad="26"/>
+<connect gate="G$1" pin="PIO2_3" pad="38"/>
+<connect gate="G$1" pin="PIO2_4" pad="19"/>
+<connect gate="G$1" pin="PIO2_5" pad="20"/>
+<connect gate="G$1" pin="PIO2_6" pad="1"/>
+<connect gate="G$1" pin="PIO2_7" pad="11"/>
+<connect gate="G$1" pin="PIO2_8" pad="12"/>
+<connect gate="G$1" pin="PIO2_9" pad="24"/>
+<connect gate="G$1" pin="PIO3_0" pad="36"/>
+<connect gate="G$1" pin="PIO3_1" pad="37"/>
+<connect gate="G$1" pin="PIO3_2" pad="43"/>
+<connect gate="G$1" pin="PIO3_3" pad="48"/>
+<connect gate="G$1" pin="PIO3_4" pad="18"/>
+<connect gate="G$1" pin="PIO3_5" pad="21"/>
+<connect gate="G$1" pin="VDD@44" pad="44"/>
+<connect gate="G$1" pin="VDD@8" pad="8"/>
+<connect gate="G$1" pin="VSS@41" pad="41"/>
+<connect gate="G$1" pin="VSS@5" pad="5"/>
+<connect gate="G$1" pin="XTALIN" pad="6"/>
+<connect gate="G$1" pin="XTALOUT" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LPC824M201JHI33">
+<gates>
+<gate name="G$1" symbol="LPC824M201JHI33" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT617-3">
+<connects>
+<connect gate="G$1" pin="PIO0_0" pad="24"/>
+<connect gate="G$1" pin="PIO0_1" pad="16"/>
+<connect gate="G$1" pin="PIO0_10" pad="9"/>
+<connect gate="G$1" pin="PIO0_11" pad="8"/>
+<connect gate="G$1" pin="PIO0_12" pad="2"/>
+<connect gate="G$1" pin="PIO0_13" pad="1"/>
+<connect gate="G$1" pin="PIO0_14" pad="25"/>
+<connect gate="G$1" pin="PIO0_15" pad="15"/>
+<connect gate="G$1" pin="PIO0_16" pad="10"/>
+<connect gate="G$1" pin="PIO0_17" pad="32"/>
+<connect gate="G$1" pin="PIO0_18" pad="31"/>
+<connect gate="G$1" pin="PIO0_19" pad="30"/>
+<connect gate="G$1" pin="PIO0_2/SWDIO" pad="7"/>
+<connect gate="G$1" pin="PIO0_20" pad="29"/>
+<connect gate="G$1" pin="PIO0_21" pad="28"/>
+<connect gate="G$1" pin="PIO0_22" pad="27"/>
+<connect gate="G$1" pin="PIO0_23" pad="26"/>
+<connect gate="G$1" pin="PIO0_24" pad="14"/>
+<connect gate="G$1" pin="PIO0_25" pad="13"/>
+<connect gate="G$1" pin="PIO0_26" pad="12"/>
+<connect gate="G$1" pin="PIO0_27" pad="11"/>
+<connect gate="G$1" pin="PIO0_28" pad="5"/>
+<connect gate="G$1" pin="PIO0_3/SWCLK" pad="6"/>
+<connect gate="G$1" pin="PIO0_4" pad="4"/>
+<connect gate="G$1" pin="PIO0_5/RESET" pad="3"/>
+<connect gate="G$1" pin="PIO0_6" pad="23"/>
+<connect gate="G$1" pin="PIO0_7" pad="22"/>
+<connect gate="G$1" pin="PIO0_8" pad="18"/>
+<connect gate="G$1" pin="PIO0_9" pad="17"/>
+<connect gate="G$1" pin="VDD" pad="19"/>
+<connect gate="G$1" pin="VREFN" pad="20"/>
+<connect gate="G$1" pin="VREFP" pad="21"/>
+<connect gate="G$1" pin="VSS" pad="33"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LPC824M201JDH20">
+<gates>
+<gate name="G$1" symbol="LPC824M201JDH20" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="SOT360">
+<connects>
+<connect gate="G$1" pin="PIO0_0" pad="19"/>
+<connect gate="G$1" pin="PIO0_1" pad="12"/>
+<connect gate="G$1" pin="PIO0_10" pad="10"/>
+<connect gate="G$1" pin="PIO0_11" pad="9"/>
+<connect gate="G$1" pin="PIO0_12" pad="4"/>
+<connect gate="G$1" pin="PIO0_13" pad="3"/>
+<connect gate="G$1" pin="PIO0_14" pad="20"/>
+<connect gate="G$1" pin="PIO0_15" pad="11"/>
+<connect gate="G$1" pin="PIO0_17" pad="2"/>
+<connect gate="G$1" pin="PIO0_2/SWDIO" pad="8"/>
+<connect gate="G$1" pin="PIO0_23" pad="1"/>
+<connect gate="G$1" pin="PIO0_3/SWCLK" pad="7"/>
+<connect gate="G$1" pin="PIO0_4" pad="6"/>
+<connect gate="G$1" pin="PIO0_5/RESET" pad="5"/>
+<connect gate="G$1" pin="PIO0_8" pad="14"/>
+<connect gate="G$1" pin="PIO0_9" pad="13"/>
+<connect gate="G$1" pin="VDD" pad="15"/>
+<connect gate="G$1" pin="VREFN" pad="17"/>
+<connect gate="G$1" pin="VREFP" pad="18"/>
+<connect gate="G$1" pin="VSS" pad="16"/>
 </connects>
 <technologies>
 <technology name=""/>
