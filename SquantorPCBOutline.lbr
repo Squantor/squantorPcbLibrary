@@ -164,6 +164,19 @@
 <wire x1="-31" y1="29" x2="-31" y2="-31" width="0" layer="20"/>
 <wire x1="29" y1="-31" x2="29" y2="29" width="0" layer="20"/>
 </package>
+<package name="SUPERTRONIC_37_51MM">
+<wire x1="5" y1="0" x2="46" y2="0" width="0" layer="20"/>
+<wire x1="46" y1="0" x2="46" y2="32" width="0" layer="20"/>
+<wire x1="46" y1="32" x2="5" y2="32" width="0" layer="20"/>
+<wire x1="0" y1="27" x2="0" y2="5" width="0" layer="20"/>
+<wire x1="5" y1="0" x2="5" y2="4" width="0" layer="20"/>
+<wire x1="4" y1="5" x2="0" y2="5" width="0" layer="20"/>
+<wire x1="5" y1="32" x2="5" y2="28" width="0" layer="20"/>
+<wire x1="4" y1="27" x2="0" y2="27" width="0" layer="20"/>
+<wire x1="4" y1="5" x2="5" y2="4" width="0" layer="20" curve="-90"/>
+<wire x1="4" y1="27" x2="5" y2="28" width="0" layer="20" curve="90"/>
+<hole x="23" y="16" drill="2.2"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CASING">
@@ -188,6 +201,18 @@
 </technologies>
 </device>
 <device name="PB1_S" package="FUTURLEC_PB1_SMALL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SUPERTRONIC">
+<gates>
+<gate name="G$1" symbol="CASING" x="0" y="0"/>
+</gates>
+<devices>
+<device name="37_51" package="SUPERTRONIC_37_51MM">
 <technologies>
 <technology name=""/>
 </technologies>
