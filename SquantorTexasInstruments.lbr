@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -281,6 +281,49 @@
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="DRV8313">
+<gates>
+<gate name="G$1" symbol="DRV8313" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HTSSOP-28">
+<connects>
+<connect gate="G$1" pin="/COMPO" pad="19"/>
+<connect gate="G$1" pin="/FAULT" pad="18"/>
+<connect gate="G$1" pin="/RESET" pad="16"/>
+<connect gate="G$1" pin="/SLEEP" pad="17"/>
+<connect gate="G$1" pin="COMPN" pad="13"/>
+<connect gate="G$1" pin="COMPP" pad="12"/>
+<connect gate="G$1" pin="CPH" pad="2"/>
+<connect gate="G$1" pin="CPL" pad="1"/>
+<connect gate="G$1" pin="EN1" pad="26"/>
+<connect gate="G$1" pin="EN2" pad="24"/>
+<connect gate="G$1" pin="EN3" pad="22"/>
+<connect gate="G$1" pin="GND@14" pad="14"/>
+<connect gate="G$1" pin="GND@20" pad="20"/>
+<connect gate="G$1" pin="GND@28" pad="28"/>
+<connect gate="G$1" pin="GND@PAD" pad="PWRPAD"/>
+<connect gate="G$1" pin="IN1" pad="27"/>
+<connect gate="G$1" pin="IN2" pad="25"/>
+<connect gate="G$1" pin="IN3" pad="23"/>
+<connect gate="G$1" pin="NC" pad="21"/>
+<connect gate="G$1" pin="OUT1" pad="5"/>
+<connect gate="G$1" pin="OUT2" pad="8"/>
+<connect gate="G$1" pin="OUT3" pad="9"/>
+<connect gate="G$1" pin="PGND1" pad="6"/>
+<connect gate="G$1" pin="PGND2" pad="7"/>
+<connect gate="G$1" pin="PGND3" pad="10"/>
+<connect gate="G$1" pin="V3P3" pad="15"/>
+<connect gate="G$1" pin="VCP" pad="3"/>
+<connect gate="G$1" pin="VM@11" pad="11"/>
+<connect gate="G$1" pin="VM@4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
