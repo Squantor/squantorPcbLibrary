@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -197,6 +197,20 @@
 <hole x="72.08" y="3.86" drill="3"/>
 <hole x="72.08" y="41.86" drill="3"/>
 </package>
+<package name="FUTURLEC_PB1_HALF">
+<hole x="-5.38" y="25.7" drill="3.2"/>
+<hole x="-5.38" y="-25.7" drill="3.2"/>
+<wire x1="-14.68" y1="30" x2="16.51" y2="30" width="0" layer="20"/>
+<wire x1="16.51" y1="-30" x2="-14.68" y2="-30" width="0" layer="20"/>
+<wire x1="-26.68" y1="-18" x2="-26.68" y2="18" width="0" layer="20"/>
+<wire x1="-14.68" y1="30" x2="-14.68" y2="21" width="0" layer="20"/>
+<wire x1="-17.68" y1="18" x2="-26.68" y2="18" width="0" layer="20"/>
+<wire x1="-26.68" y1="-18" x2="-17.68" y2="-18" width="0" layer="20"/>
+<wire x1="-14.68" y1="-21" x2="-14.68" y2="-30" width="0" layer="20"/>
+<wire x1="-17.68" y1="18" x2="-14.68" y2="21" width="0" layer="20" curve="90"/>
+<wire x1="-17.68" y1="-18" x2="-14.68" y2="-21" width="0" layer="20" curve="-90"/>
+<wire x1="16.51" y1="30" x2="16.51" y2="-30" width="0" layer="20"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CASING">
@@ -221,6 +235,11 @@
 </technologies>
 </device>
 <device name="PB1_S" package="FUTURLEC_PB1_SMALL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PB1_HALF" package="FUTURLEC_PB1_HALF">
 <technologies>
 <technology name=""/>
 </technologies>
