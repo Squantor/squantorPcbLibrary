@@ -211,7 +211,7 @@
 <wire x1="-17.68" y1="-18" x2="-14.68" y2="-21" width="0" layer="20" curve="-90"/>
 <wire x1="16.51" y1="30" x2="16.51" y2="-30" width="0" layer="20"/>
 </package>
-<package name="METROLOGY_MODULE">
+<package name="METROLOGY_MODULE_1MM_HOLE">
 <pad name="P$1" x="-11.43" y="11.43" drill="1" shape="square"/>
 <pad name="P$2" x="-11.43" y="8.89" drill="1" shape="octagon"/>
 <pad name="P$3" x="-11.43" y="6.35" drill="1" shape="octagon"/>
@@ -232,6 +232,56 @@
 <pad name="P$18" x="11.43" y="6.35" drill="1" shape="octagon"/>
 <pad name="P$19" x="11.43" y="8.89" drill="1" shape="octagon"/>
 <pad name="P$20" x="11.43" y="11.43" drill="1" shape="octagon"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0" layer="20"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0" layer="20"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0" layer="20"/>
+</package>
+<package name="METROLOGY_MODULE_.8MM_HOLE">
+<pad name="P$1" x="-11.43" y="11.43" drill="0.8" shape="square"/>
+<pad name="P$2" x="-11.43" y="8.89" drill="0.8" shape="octagon"/>
+<pad name="P$3" x="-11.43" y="6.35" drill="0.8" shape="octagon"/>
+<pad name="P$4" x="-11.43" y="3.81" drill="0.8" shape="octagon"/>
+<pad name="P$5" x="-11.43" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="P$6" x="-11.43" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="P$7" x="-11.43" y="-3.81" drill="0.8" shape="octagon"/>
+<pad name="P$8" x="-11.43" y="-6.35" drill="0.8" shape="octagon"/>
+<pad name="P$9" x="-11.43" y="-8.89" drill="0.8" shape="octagon"/>
+<pad name="P$10" x="-11.43" y="-11.43" drill="0.8" shape="octagon"/>
+<pad name="P$11" x="11.43" y="-11.43" drill="0.8" shape="octagon"/>
+<pad name="P$12" x="11.43" y="-8.89" drill="0.8" shape="octagon"/>
+<pad name="P$13" x="11.43" y="-6.35" drill="0.8" shape="octagon"/>
+<pad name="P$14" x="11.43" y="-3.81" drill="0.8" shape="octagon"/>
+<pad name="P$15" x="11.43" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="P$16" x="11.43" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="P$17" x="11.43" y="3.81" drill="0.8" shape="octagon"/>
+<pad name="P$18" x="11.43" y="6.35" drill="0.8" shape="octagon"/>
+<pad name="P$19" x="11.43" y="8.89" drill="0.8" shape="octagon"/>
+<pad name="P$20" x="11.43" y="11.43" drill="0.8" shape="octagon"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0" layer="20"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0" layer="20"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0" layer="20"/>
+</package>
+<package name="METROLOGY_MODULE_1.5MM_HOLE">
+<pad name="P$1" x="-11.43" y="11.43" drill="1.5" diameter="1.8" shape="square"/>
+<pad name="P$2" x="-11.43" y="8.89" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$3" x="-11.43" y="6.35" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$4" x="-11.43" y="3.81" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$5" x="-11.43" y="1.27" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$6" x="-11.43" y="-1.27" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$7" x="-11.43" y="-3.81" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$8" x="-11.43" y="-6.35" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$9" x="-11.43" y="-8.89" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$10" x="-11.43" y="-11.43" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$11" x="11.43" y="-11.43" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$12" x="11.43" y="-8.89" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$13" x="11.43" y="-6.35" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$14" x="11.43" y="-3.81" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$15" x="11.43" y="-1.27" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$16" x="11.43" y="1.27" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$17" x="11.43" y="3.81" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$18" x="11.43" y="6.35" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$19" x="11.43" y="8.89" drill="1.5" diameter="1.8" shape="octagon"/>
+<pad name="P$20" x="11.43" y="11.43" drill="1.5" diameter="1.8" shape="octagon"/>
 <wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0" layer="20"/>
 <wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0" layer="20"/>
 <wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0" layer="20"/>
@@ -316,7 +366,61 @@
 <gate name="G$1" symbol="METROLOGY_MODULE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="METROLOGY_MODULE">
+<device name="1MM" package="METROLOGY_MODULE_1MM_HOLE">
+<connects>
+<connect gate="G$1" pin="ADC_CTRL@13" pad="P$13"/>
+<connect gate="G$1" pin="ADC_CTRL@14" pad="P$14"/>
+<connect gate="G$1" pin="ADC_CTRL@15" pad="P$15"/>
+<connect gate="G$1" pin="ADC_CTRL@16" pad="P$16"/>
+<connect gate="G$1" pin="ADC_CTRL@17" pad="P$17"/>
+<connect gate="G$1" pin="ADC_CTRL@18" pad="P$18"/>
+<connect gate="G$1" pin="GND@11" pad="P$11"/>
+<connect gate="G$1" pin="GND@12" pad="P$12"/>
+<connect gate="G$1" pin="GND_ADC@19" pad="P$19"/>
+<connect gate="G$1" pin="GND_VREF@2" pad="P$2"/>
+<connect gate="G$1" pin="GND_VREF@3" pad="P$3"/>
+<connect gate="G$1" pin="GND_VREF@6" pad="P$6"/>
+<connect gate="G$1" pin="V+@7" pad="P$7"/>
+<connect gate="G$1" pin="V-@10" pad="P$10"/>
+<connect gate="G$1" pin="VCC_ADC@20" pad="P$20"/>
+<connect gate="G$1" pin="VCC_VREF@1" pad="P$1"/>
+<connect gate="G$1" pin="VIN+@8" pad="P$8"/>
+<connect gate="G$1" pin="VIN-@9" pad="P$9"/>
+<connect gate="G$1" pin="VREF_IN@4" pad="P$4"/>
+<connect gate="G$1" pin="VREF_OUT@5" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.8MM" package="METROLOGY_MODULE_.8MM_HOLE">
+<connects>
+<connect gate="G$1" pin="ADC_CTRL@13" pad="P$13"/>
+<connect gate="G$1" pin="ADC_CTRL@14" pad="P$14"/>
+<connect gate="G$1" pin="ADC_CTRL@15" pad="P$15"/>
+<connect gate="G$1" pin="ADC_CTRL@16" pad="P$16"/>
+<connect gate="G$1" pin="ADC_CTRL@17" pad="P$17"/>
+<connect gate="G$1" pin="ADC_CTRL@18" pad="P$18"/>
+<connect gate="G$1" pin="GND@11" pad="P$11"/>
+<connect gate="G$1" pin="GND@12" pad="P$12"/>
+<connect gate="G$1" pin="GND_ADC@19" pad="P$19"/>
+<connect gate="G$1" pin="GND_VREF@2" pad="P$2"/>
+<connect gate="G$1" pin="GND_VREF@3" pad="P$3"/>
+<connect gate="G$1" pin="GND_VREF@6" pad="P$6"/>
+<connect gate="G$1" pin="V+@7" pad="P$7"/>
+<connect gate="G$1" pin="V-@10" pad="P$10"/>
+<connect gate="G$1" pin="VCC_ADC@20" pad="P$20"/>
+<connect gate="G$1" pin="VCC_VREF@1" pad="P$1"/>
+<connect gate="G$1" pin="VIN+@8" pad="P$8"/>
+<connect gate="G$1" pin="VIN-@9" pad="P$9"/>
+<connect gate="G$1" pin="VREF_IN@4" pad="P$4"/>
+<connect gate="G$1" pin="VREF_OUT@5" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1.5MM" package="METROLOGY_MODULE_1.5MM_HOLE">
 <connects>
 <connect gate="G$1" pin="ADC_CTRL@13" pad="P$13"/>
 <connect gate="G$1" pin="ADC_CTRL@14" pad="P$14"/>
