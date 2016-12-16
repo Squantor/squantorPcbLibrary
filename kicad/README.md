@@ -20,6 +20,7 @@ grid: 0.127mm
 Smaller size: 1.0mm
 Through holes: metric, with 0.3mm annulus
 IC's note pin 1 on front silk with small circle, 0.127mm radius
+KiCAD has large soldermask clearances around their pads/pins. I standardise around 0.1mm
 
 
 
