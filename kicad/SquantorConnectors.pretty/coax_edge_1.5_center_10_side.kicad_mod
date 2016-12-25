@@ -1,4 +1,4 @@
-(module coax_edge_1.5_center_10_side (layer F.Cu) (tedit 585C5235)
+(module coax_edge_1.5_center_10_side (layer F.Cu) (tedit 5860266A)
   (fp_text reference REF** (at 0 -5.08) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -8,6 +8,5 @@
   (pad 2 smd rect (at 0 0) (size 1.5 4.25) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -7.02 0) (size 10 4.25) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 7.02 0) (size 10 4.25) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -7.02 0) (size 10 4.25) (layers B.Cu B.Paste B.Mask))
-  (pad 1 smd rect (at 7.02 0) (size 10 4.25) (layers B.Cu B.Paste B.Mask))
+  (pad 1 smd rect (at 0 0) (size 10 4.25) (layers B.Cu B.Paste B.Mask))
 )
