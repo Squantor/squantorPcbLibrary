@@ -1,4 +1,4 @@
-(module SOT666 (layer F.Cu) (tedit 58753E15)
+(module SOT666 (layer F.Cu) (tedit 587E90C0)
   (descr "<b>SOT 666 Reflow soldering foorprint</b><p>\nSource: Philips - BAS70_1PS7XSB70_SER_8.pdf")
   (fp_text reference REF** (at -1.4 2.4 90) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6,7 +6,6 @@
   (fp_text value SOT666 (at 3.3 2.8 90) (layer F.Fab)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
   )
-  (fp_circle (center -0.6 1.7) (end -0.7 1.7) (layer F.SilkS) (width 0.254))
   (fp_line (start -0.8 0.6) (end 0.8 0.6) (layer Dwgs.User) (width 0.1016))
   (fp_line (start 0.8 0.6) (end 0.8 -0.6) (layer Dwgs.User) (width 0.1016))
   (fp_line (start 0.8 -0.6) (end -0.8 -0.6) (layer Dwgs.User) (width 0.1016))

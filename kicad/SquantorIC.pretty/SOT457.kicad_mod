@@ -1,4 +1,4 @@
-(module SOT457 (layer F.Cu) (tedit 58753DF2)
+(module SOT457 (layer F.Cu) (tedit 587E90AE)
   (descr "<li><b>SOT457</b><hr>\n<ul><li>TSOP6: Plastic surface-mounted package; 6 lead\n<li><u>JEIDA</u>: SC73\n<p>A.K.A. SOT23-6")
   (fp_text reference REF** (at -1.8 2.6 270) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6,7 +6,6 @@
   (fp_text value SOT457 (at 3.2 3.6 90) (layer F.Fab)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
   )
-  (fp_circle (center -1 2.2) (end -1.1 2.2) (layer F.SilkS) (width 0.254))
   (fp_line (start -1.4 -0.75) (end 1.4 -0.75) (layer Dwgs.User) (width 0.1016))
   (fp_line (start 1.4 -0.75) (end 1.4 0.75) (layer F.SilkS) (width 0.1016))
   (fp_line (start 1.4 0.75) (end -1.4 0.75) (layer Dwgs.User) (width 0.1016))

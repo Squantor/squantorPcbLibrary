@@ -1,4 +1,4 @@
-(module SOT617-3 (layer F.Cu) (tedit 58740264)
+(module SOT617-3 (layer F.Cu) (tedit 587E90B9)
   (descr "<li><b>SOT617-3</b><hr>\n<ul><li>HVQFN32: plastic thermal enhanced very thin quad flat package; no leads; 32 terminals; body 5 x 5 x 0.85 mm\n<li><u>JEDEC</u>: MO-220\n<li><u>IEC</u>: --\n<li><u>JEITA</u>: -- </ul>")
   (fp_text reference REF** (at -2.4 -3.9) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6,7 +6,6 @@
   (fp_text value SOT617-3 (at -4.7 5) (layer F.Fab)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
   )
-  (fp_circle (center -3 -3) (end -2.9 -3) (layer F.SilkS) (width 0.254))
   (fp_line (start -2.025 3.125) (end 2.025 3.125) (layer Dwgs.User) (width 0.127))
   (fp_line (start 2.025 -3.125) (end -2.025 -3.125) (layer Dwgs.User) (width 0.127))
   (fp_line (start -3.125 -2.025) (end -3.125 2.025) (layer Dwgs.User) (width 0.127))
