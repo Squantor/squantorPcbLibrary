@@ -14,7 +14,7 @@
   (fp_poly (pts (xy -1.2 1.45) (xy 1.575 1.45) (xy 1.575 0.28) (xy -1.2 0.28)) (layer F.Mask) (width 0))
   (fp_poly (pts (xy -1.575 1.45) (xy -1.2 1.45) (xy -1.2 0.18) (xy -1.575 0.18)) (layer F.Mask) (width 0))
   (fp_poly (pts (xy -1.6 1.2) (xy 0 1.2) (xy 0 0) (xy -1.6 0)) (layer Dwgs.User) (width 0))
-  (fp_circle (center -1.6 2) (end -1.4 2) (layer F.SilkS) (width 0))
+  (fp_circle (center -1.6 2) (end -1.4 2) (layer F.SilkS) (width 0.15))
   (pad 13 smd rect (at -0.2 -0.865) (size 0.25 1.07) (layers F.Cu F.Paste F.Mask))
   (pad 12 smd rect (at 0.2 -0.865) (size 0.25 1.07) (layers F.Cu F.Paste F.Mask))
   (pad 11 smd rect (at 0.6 -0.865) (size 0.25 1.07) (layers F.Cu F.Paste F.Mask))
