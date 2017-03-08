@@ -10,6 +10,11 @@ I try and keep everything metric as possible but usually grids are in imperial f
 Here is a short overview of the design rules I use for various objects:
 * Font Sizings: 1.27mm Width 1.27mm Height, 0.15mm Thickness
 * Version string: VYYYYMMDD
+### Symbols ###
+* Symbol designator top using the standard symbol designators from wikipedia, Centered on footprint
+* Symbol name below, centered on footprint
+* Pin, two grid points long
+* Pins placed on package item also on two gridpoints layout
 
 ### Components ###
 * Reference on top, front silk screen, name REF, centered on footprint
