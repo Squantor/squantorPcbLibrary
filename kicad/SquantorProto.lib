@@ -1,5 +1,16 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# Proto
+#
+DEF Proto J 0 40 Y Y 1 F N
+F0 "J" 0 100 60 H V C CNN
+F1 "Proto" 0 -100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+P 5 0 1 0 -150 150 150 150 150 -150 -150 -150 -150 150 N
+ENDDRAW
+ENDDEF
 #
 #End Library
