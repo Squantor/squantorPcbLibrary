@@ -1,4 +1,4 @@
-SquantorEagleLib
+Squantor PCB Component libraries
 ================
 
 Personal component libraries.
