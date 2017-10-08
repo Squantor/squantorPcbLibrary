@@ -8,7 +8,7 @@ I tend to seperate out my libraries per vendor as each usually have their own fl
 ### General ###
 I try and keep everything metric as possible but usually grids are in imperial format, usually divisions/multiples of 1.27mm.
 Here is a short overview of the design rules I use for various objects:
-* Font Sizings: 1.27mm Width 1.27mm Height, 0.15mm Thickness
+* Font Sizings: 1.00mm Width 1.27mm Height, 0.15mm Thickness
 * Version string: VYYYYMMDD
 
 ### Symbols ###
