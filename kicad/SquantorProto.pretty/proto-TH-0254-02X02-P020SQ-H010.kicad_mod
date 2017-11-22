@@ -1,8 +1,8 @@
-(module proto-TH-0254-02X02-P020-H010 (layer F.Cu) (tedit 5A15E9A5)
+(module proto-TH-0254-02X02-P020SQ-H010 (layer F.Cu) (tedit 5A15EA79)
   (fp_text reference REF** (at 0 -3.81) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value proto-TH-0254-04X04-P020-H010 (at 0 3.81) (layer F.Fab) hide
+  (fp_text value proto-TH-0254-02X02-P020SQ-H010 (at 0 3.81) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad 1 thru_hole rect (at -1.27 -1.27) (size 2 2) (drill 1) (layers *.Cu *.Mask))
