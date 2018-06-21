@@ -5,4 +5,9 @@ D Transistor N-MOSFET with substrate diode (general)
 K NMOS n-mos n-mosfet transistor
 $ENDCMP
 #
+$CMP Q_PMOS_DUAL
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 #End Doc Library
