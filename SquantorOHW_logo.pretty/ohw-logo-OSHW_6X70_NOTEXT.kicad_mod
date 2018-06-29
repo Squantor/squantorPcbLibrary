@@ -1,10 +1,10 @@
-(module ohw-logo-OSHW_6X70_NOTEXT (layer F.Cu) (tedit 59D3F9D2)
+(module ohw-logo-OSHW_6X70_NOTEXT (layer F.Cu) (tedit 5B366A78)
   (attr virtual)
   (fp_text reference ohw-logo-OSHW_6X70_NOTEXT (at 0 2) (layer F.Fab)
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
-  (fp_text value Val** (at 0 -2) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  (fp_text value REF** (at 0 -2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -0.1618 0.292) (end -0.3142 0.6984) (layer F.SilkS) (width 0.15))
   (fp_line (start -0.3142 0.6984) (end -0.4158 0.6476) (layer F.SilkS) (width 0.15))
