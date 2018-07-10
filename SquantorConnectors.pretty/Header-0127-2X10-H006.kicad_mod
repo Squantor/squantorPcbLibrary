@@ -5,6 +5,7 @@
   (fp_text value Header-0127-2X10-H006 (at 0 2.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_line (start -7 -1.5) (end -7 1.5) (layer F.SilkS) (width 0.15))
   (fp_line (start 6.75 -1.5) (end 6.5 -1.5) (layer F.SilkS) (width 0.15))
   (fp_line (start 6.75 1.5) (end 6.75 -1.5) (layer F.SilkS) (width 0.15))
   (fp_line (start 6.5 1.5) (end 6.75 1.5) (layer F.SilkS) (width 0.15))
