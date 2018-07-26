@@ -1,8 +1,11 @@
-(module Label_version (layer F.Cu) (tedit 59D3ED5E)
-  (fp_text reference REF** (at 0 2) (layer F.Fab) hide
+(module Label_version (layer F.Cu) (tedit 5B5A1E49)
+  (fp_text reference REF** (at 0 1.4) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Label_version (at 0 0) (layer F.SilkS)
+  (fp_text value Label_version (at 0.8 -0.1) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user V: (at -4.9 -0.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 )
