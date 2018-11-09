@@ -15,4 +15,78 @@ X OUT 2 250 0 100 L 40 40 1 1 w
 ENDDRAW
 ENDDEF
 #
+# SolderJumper_2way_0conn
+#
+DEF SolderJumper_2way_0conn SJ 0 40 Y Y 1 F N
+F0 "SJ" 0 100 50 H V C CNN
+F1 "SolderJumper_2way_0conn" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -50 0 50 901 -901 0 1 0 N -50 50 -50 -50
+A 50 0 50 -899 899 0 1 0 N 50 -50 50 50
+P 2 0 1 0 -50 50 -50 -50 N
+P 2 0 1 0 50 -50 50 50 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SolderJumper_2way_1conn
+#
+DEF SolderJumper_2way_1conn SJ 0 40 Y Y 1 F N
+F0 "SJ" 0 100 50 H V C CNN
+F1 "SolderJumper_2way_1conn" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -50 0 50 901 -901 0 1 0 N -50 50 -50 -50
+A 50 0 50 -899 899 0 1 0 N 50 -50 50 50
+P 2 0 1 0 -50 0 50 0 N
+P 2 0 1 0 -50 50 -50 -50 N
+P 2 0 1 0 50 -50 50 50 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SolderJumper_3way_0conn
+#
+DEF SolderJumper_3way_0conn SJ 0 40 Y Y 1 F N
+F0 "SJ" 150 150 50 H V C CNN
+F1 "SolderJumper_3way_0conn" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -100 0 50 901 -901 0 1 0 N -100 50 -100 -50
+A 100 0 50 -899 899 0 1 0 N 100 -50 100 50
+S -50 50 50 -50 0 1 0 N
+P 2 0 1 0 -100 50 -100 -50 N
+P 2 0 1 0 100 -50 100 50 N
+X ~ 1 -250 0 100 R 50 50 1 1 P
+X ~ 2 0 150 100 D 50 50 1 1 P
+X ~ 3 250 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SolderJumper_3way_1conn
+#
+DEF SolderJumper_3way_1conn SJ 0 40 Y Y 1 F N
+F0 "SJ" 150 150 50 H V C CNN
+F1 "SolderJumper_3way_1conn" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -100 0 50 901 -901 0 1 0 N -100 50 -100 -50
+A 100 0 50 -899 899 0 1 0 N 100 -50 100 50
+S -50 50 50 -50 0 1 0 N
+P 2 0 1 0 -100 0 -50 0 N
+P 2 0 1 0 -100 50 -100 -50 N
+P 2 0 1 0 100 -50 100 50 N
+X ~ 1 -250 0 100 R 50 50 1 1 P
+X ~ 2 0 150 100 D 50 50 1 1 P
+X ~ 3 250 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
