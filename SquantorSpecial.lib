@@ -89,4 +89,30 @@ X ~ 3 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# power_joiner_2_nets
+#
+DEF ~power_joiner_2_nets U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "power_joiner_2_nets" 0 -50 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X ~ 1 -100 0 100 R 50 50 1 1 W
+X ~ 2 100 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# power_joiner_5_nets
+#
+DEF power_joiner_5_nets U 0 40 Y Y 1 F N
+F0 "U" -200 150 50 H V C CNN
+F1 "power_joiner_5_nets" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X ~ 1 -100 0 100 R 50 50 1 1 W
+X ~ 1 100 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
 #End Library
