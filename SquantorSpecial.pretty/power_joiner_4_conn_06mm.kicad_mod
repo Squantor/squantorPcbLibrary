@@ -1,5 +1,5 @@
-(module power_joiner_4_conn_06mm (layer F.Cu) (tedit 5C4D9DA5)
-  (fp_text reference REF** (at 0 -1.27) (layer F.SilkS)
+(module power_joiner_4_conn_06mm (layer F.Cu) (tedit 5C4DDA69)
+  (fp_text reference REF** (at 0 -1.27) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value power_joiner_4_conn_06mm (at 0 1.27) (layer F.Fab) hide
