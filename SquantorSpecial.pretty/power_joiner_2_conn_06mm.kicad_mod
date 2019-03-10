@@ -1,0 +1,11 @@
+(module power_joiner_2_conn_06mm (layer F.Cu) (tedit 5C4DDA5A)
+  (fp_text reference REF** (at 0 -1.27) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value power_joiner_2_conn_06mm (at 0 1.27) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0.6 0) (end -0.6 0) (layer F.Cu) (width 0.6))
+  (pad 2 smd circle (at 0.6 0) (size 0.6 0.6) (layers F.Cu))
+  (pad 1 smd circle (at -0.6 0) (size 0.6 0.6) (layers F.Cu))
+)
