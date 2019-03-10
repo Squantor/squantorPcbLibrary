@@ -3,8 +3,8 @@ EESchema-LIBRARY Version 2.4
 #
 # LPC81XJDH20_breakout_left
 #
-DEF LPC81XJDH20_breakout_left U 0 40 Y Y 1 F N
-F0 "U" 0 600 50 H V C CNN
+DEF LPC81XJDH20_breakout_left J 0 40 Y Y 1 F N
+F0 "J" 0 600 50 H V C CNN
 F1 "LPC81XJDH20_breakout_left" 0 -600 50 H V C CNN
 F2 "" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
@@ -25,8 +25,8 @@ ENDDEF
 #
 # LPC81XJDH20_breakout_right
 #
-DEF LPC81XJDH20_breakout_right U 0 40 Y Y 1 F N
-F0 "U" 0 600 50 H V C CNN
+DEF LPC81XJDH20_breakout_right J 0 40 Y Y 1 F N
+F0 "J" 0 600 50 H V C CNN
 F1 "LPC81XJDH20_breakout_right" 0 -600 50 H V C CNN
 F2 "" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
