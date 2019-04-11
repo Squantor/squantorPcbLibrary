@@ -87,4 +87,26 @@ X VDD 9 -300 -400 100 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# LPC82XJHI33_breakout_left
+#
+DEF LPC82XJHI33_breakout_left J 0 40 Y Y 1 F N
+F0 "J" 0 0 50 H V C CNN
+F1 "LPC82XJHI33_breakout_left" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# LPC82XJHI33_breakout_right
+#
+DEF LPC82XJHI33_breakout_right U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "LPC82XJHI33_breakout_right" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
 #End Library
