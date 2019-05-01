@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
 # LM317
@@ -86,6 +86,21 @@ X NC 5 350 -150 100 L 50 50 1 1 N
 X VIN 6 350 -50 100 L 50 50 1 1 W
 X VIN 7 350 50 100 L 50 50 1 1 W
 X NC 8 350 150 100 L 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+# reference3pin
+#
+DEF reference3pin U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "reference3pin" 0 -250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 200 150 -200 0 1 0 N
+X VIN 1 -250 100 100 R 50 50 1 1 W
+X VOUT 2 -250 -100 100 R 50 50 1 1 w
+X VSS 3 250 0 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
