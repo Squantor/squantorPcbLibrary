@@ -207,4 +207,36 @@ X PIO0_20 9 -450 0 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# reference_input
+#
+DEF reference_input J 0 40 Y Y 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "reference_input" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 250 100 -250 0 1 0 f
+X VIN 1 -200 150 100 R 50 50 1 1 w
+X VIN 2 -200 50 100 R 50 50 1 1 W
+X VSS 3 -200 -50 100 R 50 50 1 1 w
+X VSS 4 -200 -150 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# reference_output
+#
+DEF reference_output J 0 40 Y Y 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "reference_output" 0 -300 50 H V C CNN
+F2 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+DRAW
+S -150 250 150 -250 0 1 0 f
+X VSS 1 -250 150 100 R 50 50 1 1 W
+X VSS 2 -250 50 100 R 50 50 1 1 W
+X VOUT 3 -250 -50 100 R 50 50 1 1 W
+X VOUT 4 -250 -150 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 #End Library
