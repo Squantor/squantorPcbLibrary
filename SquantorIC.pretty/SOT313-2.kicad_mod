@@ -1,5 +1,6 @@
-(module SOT313-2 (layer F.Cu) (tedit 58867CB3)
-  (descr "<li><b>SOT313-2</b><hr>\n<ul><li>LQFP48: plastic low profile quad flat package; 48 leads; body 7 x 7 x 1.4 mm\n<li><u>JEDEC</u>: MS-026\n<li><u>IEC</u>: 136E05</ul>\nFootprint according to NXP SOT313-2 specification, however the cornerpins are 0.4mm in stead of 0.5mm. Probably an error in the specification.")
+(module SOT313-2 (layer F.Cu) (tedit 5CF7F7AD)
+  (descr "SOT313-2 LQFP48: plastic low profile quad flat package; 48 leads; body 7 x 7 x 1.4 mm NXP specification")
+  (tags "SOT313-2 NXP LQFP48")
   (fp_text reference **REF (at 6.5 -0.5) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
   )

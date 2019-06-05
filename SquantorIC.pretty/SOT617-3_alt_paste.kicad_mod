@@ -1,5 +1,6 @@
-(module SOT617-3_alt_paste (layer F.Cu) (tedit 5C8970EE)
-  (descr "<li><b>SOT617-3</b><hr>\n<ul><li>HVQFN32: plastic thermal enhanced very thin quad flat package; no leads; 32 terminals; body 5 x 5 x 0.85 mm\n<li><u>JEDEC</u>: MO-220\n<li><u>IEC</u>: --\n<li><u>JEITA</u>: -- </ul>")
+(module SOT617-3_alt_paste (layer F.Cu) (tedit 5CF7FB23)
+  (descr "SOT617-3 HVQFN32: plastic thermal enhanced very thin quad flat package; no leads; 32 terminals; body 5 x 5 x 0.85 mm NXP specification")
+  (tags "SOT617-3 HVQFN32 NXP alternate paste")
   (fp_text reference REF** (at 0 -3.9) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

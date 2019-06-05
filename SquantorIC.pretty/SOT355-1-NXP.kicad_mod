@@ -1,5 +1,5 @@
-(module SOT355-1-NXP (layer F.Cu) (tedit 5C6B25F2)
-  (descr "<li><b>SOT355-1</b><hr>\n<ul><li>TSSOP24: plastic thin shrink small outline package; 24 leads; body width 4.4 mm<li><u>JEDEC</u>: MO-153\n<li><u>IEC</u>: --\n<li><u>JEITA</u>: --</ul>")
+(module SOT355-1-NXP (layer F.Cu) (tedit 5CF7F864)
+  (descr "SOT355-1 TSSOP24: plastic thin shrink small outline package; 24 leads; body width 4.4 mm NXP specification")
   (fp_text reference REF** (at 0 -5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

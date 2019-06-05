@@ -1,4 +1,4 @@
-(module SOT1341-1_NXP_XSON16 (layer F.Cu) (tedit 5CE70E4F)
+(module SOT1341-1_NXP_XSON16 (layer F.Cu) (tedit 5CF7FA42)
   (descr "SOT1341-1 XSON16 NXP footprint")
   (tags "SOT1341-1 XSON16 NXP")
   (attr smd)

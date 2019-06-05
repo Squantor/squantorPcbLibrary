@@ -1,5 +1,6 @@
-(module SOT666 (layer F.Cu) (tedit 587E90C0)
-  (descr "<b>SOT 666 Reflow soldering foorprint</b><p>\nSource: Philips - BAS70_1PS7XSB70_SER_8.pdf")
+(module SOT666 (layer F.Cu) (tedit 5CF7F9CD)
+  (descr "SOT666 Reflow soldering foorprint NXP specification")
+  (tags SOT666)
   (fp_text reference REF** (at -1.4 2.4 90) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
   )

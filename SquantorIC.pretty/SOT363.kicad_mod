@@ -1,5 +1,6 @@
-(module SOT363 (layer F.Cu) (tedit 59DA8798)
-  (descr "<li><b>SOT363</b><hr>\n<ul><li>Plastic surface-mounted package; 6 leads\n<li><u>JEDEC</u>: --\n<li><u>IEC</u>: --\n<li><u>JEITA</u>:  SC-88</ul>")
+(module SOT363 (layer F.Cu) (tedit 5CF7F8D2)
+  (descr "SOT363 Plastic surface-mounted package; 6 leads SC-88 NXP specified")
+  (tags "SOT363 SC-88 NXP")
   (fp_text reference REF** (at -1.8 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

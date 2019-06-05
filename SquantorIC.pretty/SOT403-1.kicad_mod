@@ -1,5 +1,6 @@
-(module SOT403-1 (layer F.Cu) (tedit 587E90A5)
-  (descr "<li><b>SOT403-1</b><hr>\n<ul><li>TSSOP16: plastic thin shrink small outline package; 16 leads; body width 4.4 mm\n<li><u>JEDEC</u>: MO-153\n<li><u>IEC</u>: ---</ul>")
+(module SOT403-1 (layer F.Cu) (tedit 5CF7F90E)
+  (descr "SOT403-1 TSSOP16: plastic thin shrink small outline package; 16 leads; body width 4.4 mm NXP specification")
+  (tags "SOT403-1 TSSOP16 NXP")
   (fp_text reference REF** (at -3.4 2.4 90) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
   )

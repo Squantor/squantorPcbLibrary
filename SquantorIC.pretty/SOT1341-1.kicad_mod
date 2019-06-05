@@ -1,5 +1,6 @@
-(module SOT1341-1 (layer F.Cu) (tedit 587E907D)
-  (descr "<li><b>SOT1341-1</b><hr>\n<ul><li>XSON16: plastic extremely thin small outline package; no leads; 16 terminals; body 2.5 x 3.2 x 0.5 mm<li><u>JEDEC</u>: MO-252\n<li><u>IEC</u>: --\n<li><u>JEITA</u>: --</ul>date: 2014-01-21<p>\nREMARK: This is not an official NXP footprint. It has been made for the LPC812 XSON16 package. It is based on the SOT1333-1 package.")
+(module SOT1341-1 (layer F.Cu) (tedit 5CF7FA37)
+  (descr "SOT1341-1 XSON16: plastic extremely thin small outline package; no leads; 16 terminals; body 2.5 x 3.2 x 0.5 mm NXP specification")
+  (tags "SOT1341-1 XSON16 NXP")
   (fp_text reference REF** (at -2.3 3 90) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
   )

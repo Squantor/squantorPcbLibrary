@@ -1,4 +1,6 @@
-(module SOT765-1-NXP (layer F.Cu) (tedit 5B8D90E8)
+(module SOT765-1-NXP (layer F.Cu) (tedit 5CF7F9DD)
+  (descr "SOT765 NXP specification")
+  (tags "SOT765 NXP")
   (fp_text reference REF** (at 0 -2.4 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
