@@ -1,3 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP opamp_feedback_circuit_input
+D Input connection for a generic opamp feedback circuit
+$ENDCMP
+#
+$CMP opamp_feedback_circuit_output
+D output connection for a generic opamp feedback circuit
+$ENDCMP
+#
 #End Doc Library
