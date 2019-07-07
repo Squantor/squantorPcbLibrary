@@ -1,6 +1,7 @@
-(module QFN_16_4by4mm_FTDI_alt_paste (layer F.Cu) (tedit 5CAA6557)
+(module QFN_16_4by4mm_FTDI_alt_paste (layer F.Cu) (tedit 5D1E5D2F)
   (descr "QFN 16 pin, 4 by 4mm with alternate paste distribution, specified by FTDI")
   (tags "QFN16 FTDI paste")
+  (solder_paste_ratio -0.1)
   (fp_text reference REF** (at 0.05 -6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
