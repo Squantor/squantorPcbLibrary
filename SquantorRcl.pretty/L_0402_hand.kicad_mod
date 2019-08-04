@@ -1,4 +1,4 @@
-(module L_0402_hand (layer F.Cu) (tedit 5D47401C)
+(module L_0402_hand (layer F.Cu) (tedit 5D4740AC)
   (descr "Inductor SMD 0402")
   (tags "Inductor 0402")
   (attr smd)
@@ -20,7 +20,7 @@
   (fp_line (start -0.1 0.15) (end 0.1 0.15) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -0.55 0) (size 0.6 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.55 0) (size 0.6 0.6) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0402_1005Metric.step
+  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0402_1005Metric.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
