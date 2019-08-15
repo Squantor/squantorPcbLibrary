@@ -1,4 +1,6 @@
-(module SOT89-NXP (layer F.Cu) (tedit 5D5558F9)
+(module SOT89-NXP (layer F.Cu) (tedit 5D55594A)
+  (descr "SOT89 NXP specification https://www.nxp.com/docs/en/package-information/SOT89.pdf")
+  (tags "SOT89 NXP")
   (attr smd)
   (fp_text reference REF** (at 0 -3.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
