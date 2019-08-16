@@ -1,4 +1,4 @@
-(module SOT363 (layer F.Cu) (tedit 5D1D0AA4)
+(module SOT363 (layer F.Cu) (tedit 5D56AFEE)
   (descr "SOT363 Plastic surface-mounted package; 6 leads SC-88 NXP specified")
   (tags "SOT363 SC-88 NXP")
   (fp_text reference REF** (at -1.8 0 90) (layer F.SilkS)
@@ -30,4 +30,9 @@
   (pad 1 smd rect (at -0.75 0.9) (size 0.6 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 0.9) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0.75 0.9) (size 0.6 0.6) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-363_SC-70-6.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
