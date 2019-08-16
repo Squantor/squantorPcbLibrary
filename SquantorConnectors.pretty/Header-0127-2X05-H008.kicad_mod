@@ -1,4 +1,5 @@
-(module Header-0127-2X05-H008 (layer F.Cu) (tedit 5CA38C87)
+(module Header-0127-2X05-H008 (layer F.Cu) (tedit 5D56B1A9)
+  (descr "Header 1.27 2by5 pins")
   (fp_text reference REF** (at 0 -2.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -20,4 +21,9 @@
   (pad 8 thru_hole circle (at 1.27 -0.635) (size 1 1) (drill 0.8) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at 2.54 0.635) (size 1 1) (drill 0.8) (layers *.Cu *.Mask))
   (pad 10 thru_hole circle (at 2.54 -0.635) (size 1 1) (drill 0.8) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x05_P1.27mm_Vertical.wrl
+    (offset (xyz -2.54 -0.635 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

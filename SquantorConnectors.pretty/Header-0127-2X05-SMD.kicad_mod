@@ -1,4 +1,4 @@
-(module Header-0127-2X05-SMD (layer F.Cu) (tedit 5BE1FFC5)
+(module Header-0127-2X05-SMD (layer F.Cu) (tedit 5D56B185)
   (attr smd)
   (fp_text reference **REF (at 0 -3.9) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -44,4 +44,9 @@
   (pad 8 smd rect (at 1.27 -1.905 90) (size 2.39776 0.75946) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at 2.54 1.905 90) (size 2.39776 0.75946) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd rect (at 2.54 -1.905 90) (size 2.39776 0.75946) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x05_P1.27mm_Vertical_SMD.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )
