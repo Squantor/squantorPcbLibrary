@@ -48,11 +48,11 @@ X ~ 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Solderjumper_3way_123conn_copy
+# Solderjumper_3way_123conn
 #
-DEF Solderjumper_3way_123conn_copy JP 0 40 Y Y 1 F N
+DEF Solderjumper_3way_123conn JP 0 40 Y Y 1 F N
 F0 "JP" 0 250 50 H V C CNN
-F1 "Solderjumper_3way_123conn_copy" 0 -250 50 H V C CNN
+F1 "Solderjumper_3way_123conn" 0 -250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
