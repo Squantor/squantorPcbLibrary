@@ -15,6 +15,39 @@ X OUT 2 250 0 100 L 40 40 1 1 w
 ENDDRAW
 ENDDEF
 #
+# Solderjumper_2way_12conn
+#
+DEF Solderjumper_2way_12conn JP 0 40 Y Y 1 F N
+F0 "JP" 0 150 50 H V C CNN
+F1 "Solderjumper_2way_12conn" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 100 -100 0 1 0 f
+P 2 0 1 0 -100 0 -50 0 N
+P 2 0 1 0 -50 0 50 0 N
+P 2 0 1 0 100 0 50 0 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Solderjumper_2way_noconn
+#
+DEF Solderjumper_2way_noconn JP 0 40 Y Y 1 F N
+F0 "JP" 0 150 50 H V C CNN
+F1 "Solderjumper_2way_noconn" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 100 -100 0 1 0 f
+P 2 0 1 0 -100 0 -50 0 N
+P 2 0 1 0 100 0 50 0 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Solderjumper_3way_123conn_copy
 #
 DEF Solderjumper_3way_123conn_copy JP 0 40 Y Y 1 F N
