@@ -1,0 +1,12 @@
+(module Label_Generic (layer F.Cu) (tedit 5D8A7D4C)
+  (descr "Label for general purpose use")
+  (tags Label)
+  (attr smd)
+  (fp_text reference REF** (at 0 1.85) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Label_Generic (at 0.8 -0.1) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (fp_line (start -0.5 0.6) (end 0.5 0.6) (layer F.SilkS) (width 0.15))
+)
