@@ -247,11 +247,11 @@ X PIO0_20 9 -450 0 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# nuclone_exp_small_bus_analog
+# nuclone_small_exp_bus_analog
 #
-DEF nuclone_exp_small_bus_analog J 0 40 Y Y 1 F N
+DEF nuclone_small_exp_bus_analog J 0 40 Y Y 1 F N
 F0 "J" 0 600 50 H V C CNN
-F1 "nuclone_exp_small_bus_analog" 0 -600 50 H V C CNN
+F1 "nuclone_small_exp_bus_analog" 0 -600 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -279,11 +279,11 @@ X VDD 9 -500 50 100 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# nuclone_exp_small_gpio
+# nuclone_small_exp_gpio
 #
-DEF nuclone_exp_small_gpio J 0 40 Y Y 1 F N
+DEF nuclone_small_exp_gpio J 0 40 Y Y 1 F N
 F0 "J" 0 600 50 H V C CNN
-F1 "nuclone_exp_small_gpio" 0 -600 50 H V C CNN
+F1 "nuclone_small_exp_gpio" 0 -600 50 H V C CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 DRAW
@@ -311,11 +311,11 @@ X GPIO_06 9 -450 50 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# nuclone_main_small_bus_analog
+# nuclone_small_main_bus_analog
 #
-DEF nuclone_main_small_bus_analog J 0 40 Y Y 1 F N
+DEF nuclone_small_main_bus_analog J 0 40 Y Y 1 F N
 F0 "J" 0 600 50 H V C CNN
-F1 "nuclone_main_small_bus_analog" 0 -600 50 H V C CNN
+F1 "nuclone_small_main_bus_analog" 0 -600 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -343,11 +343,11 @@ X VDD 9 -500 50 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# nuclone_main_small_gpio_copy
+# nuclone_small_main_gpio_copy
 #
-DEF nuclone_main_small_gpio_copy J 0 40 Y Y 1 F N
+DEF nuclone_small_main_gpio_copy J 0 40 Y Y 1 F N
 F0 "J" 0 600 50 H V C CNN
-F1 "nuclone_main_small_gpio_copy" 0 -600 50 H V C CNN
+F1 "nuclone_small_main_gpio_copy" 0 -600 50 H V C CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 DRAW
