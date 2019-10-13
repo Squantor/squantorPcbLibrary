@@ -1,11 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP Z84C000XPEG
-D Z80 CPU PDIOP housing
+D Z80 CPU PDIP housing
 $ENDCMP
 #
 $CMP Z84C000XVEG
 D Z80 CPU PLCC housing
+$ENDCMP
+#
+$CMP Z84C200XVEG
+D Z80 PIO PLCC housing
 $ENDCMP
 #
 #End Doc Library
