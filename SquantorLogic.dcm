@@ -5,4 +5,9 @@ D Octal D-type flip-flop with reset; positive-edge trigger
 K Octal flip-flop reset
 $ENDCMP
 #
+$CMP 74XX32
+D Quad 2-input OR gate
+K Quad 2-input OR gate
+$ENDCMP
+#
 #End Doc Library
