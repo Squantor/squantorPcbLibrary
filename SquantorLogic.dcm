@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74XX273
+D Octal D-type flip-flop with reset; positive-edge trigger
+K Octal flip-flop reset
+$ENDCMP
+#
 #End Doc Library
