@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74XX00
+D Quad 2-input NAND gate
+K Quad 2-input NAND gate
+$ENDCMP
+#
 $CMP 74XX273
 D Octal D-type flip-flop with reset; positive-edge trigger
 K Octal flip-flop reset
