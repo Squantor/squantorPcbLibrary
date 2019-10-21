@@ -16,4 +16,8 @@ $CMP Z84C200XVEG
 D Z80 PIO PLCC housing
 $ENDCMP
 #
+$CMP Z84C40XPEG
+D Z80 SIO PDIP housing
+$ENDCMP
+#
 #End Doc Library
