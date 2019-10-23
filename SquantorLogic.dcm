@@ -5,6 +5,16 @@ D Quad 2-input NAND gate
 K Quad 2-input NAND gate
 $ENDCMP
 #
+$CMP 74XX02
+D Quad 2-input NOR gate
+K Quad 2-input NOR gate
+$ENDCMP
+#
+$CMP 74XX138
+D 3-to-8 line decoder/demultiplexer; inverting
+K line decoder demultiplexer
+$ENDCMP
+#
 $CMP 74XX273
 D Octal D-type flip-flop with reset; positive-edge trigger
 K Octal flip-flop reset
