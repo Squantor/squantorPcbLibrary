@@ -667,11 +667,11 @@ X VDD 9 -500 50 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# nuclone_small_main_gpio_copy
+# nuclone_small_main_gpio
 #
-DEF nuclone_small_main_gpio_copy J 0 40 Y Y 1 F N
+DEF nuclone_small_main_gpio J 0 40 Y Y 1 F N
 F0 "J" 0 600 50 H V C CNN
-F1 "nuclone_small_main_gpio_copy" 0 -600 50 H V C CNN
+F1 "nuclone_small_main_gpio" 0 -600 50 H V C CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 DRAW
