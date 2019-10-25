@@ -1,8 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP nuclone_small_left
+D small Nuclone left hand connector
+K small nuclone
+$ENDCMP
+#
 $CMP nuclone_small_main_gpio
 D small form nuclone gpio connector
 K nuclone gpio connector
+$ENDCMP
+#
+$CMP nuclone_small_right
+D Small nuclone right hand connector
+K Small nuclone right
 $ENDCMP
 #
 $CMP opamp_feedback_circuit_input
