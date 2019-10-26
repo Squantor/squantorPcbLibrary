@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP nuclone_medium_left
+D medium Nuclone left hand connector
+K medium nuclone
+$ENDCMP
+#
+$CMP nuclone_medium_right
+D Medium nuclone right hand connector
+K medium nuclone right
+$ENDCMP
+#
 $CMP nuclone_small_left
 D small Nuclone left hand connector
 K small nuclone
