@@ -575,7 +575,7 @@ ENDDEF
 #
 DEF nuclone_medium_left J 0 40 Y Y 1 F N
 F0 "J" 0 1100 50 H V C CNN
-F1 "nuclone_medium_left" 0 -1150 50 H V C CNN
+F1 "nuclone_medium_left" 0 -1100 50 H V C CNN
 F2 "" 150 450 50 H I C CNN
 F3 "" 150 450 50 H I C CNN
 DRAW
@@ -626,7 +626,7 @@ ENDDEF
 # nuclone_medium_right
 #
 DEF nuclone_medium_right J 0 40 Y Y 1 F N
-F0 "J" 0 600 50 H V C CNN
+F0 "J" 0 1650 50 H V C CNN
 F1 "nuclone_medium_right" 0 -600 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
