@@ -1,4 +1,4 @@
-(module nuclone_medium_left (layer F.Cu) (tedit 5DB49B35)
+(module nuclone_medium_left (layer F.Cu) (tedit 5DB5C68F)
   (descr "PIN HEADER")
   (tags "PIN HEADER")
   (attr virtual)
@@ -298,9 +298,9 @@
   (pad 32 thru_hole circle (at 13.97 -1.27) (size 1.3 1.3) (drill 1) (layers *.Cu *.Mask))
   (pad 29 thru_hole circle (at 11.43 1.27) (size 1.3 1.3) (drill 1) (layers *.Cu *.Mask))
   (pad 37 thru_hole circle (at 21.59 1.27) (size 1.3 1.3) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Vertical.step
-    (offset (xyz -11.43 -1.27 0))
+  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x20_P2.54mm_Vertical.step
+    (offset (xyz -24.13 -1.27 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -0 0 -90))
+    (rotate (xyz 0 0 -90))
   )
 )
