@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EEPROM_512K8B_DIP
+D EEPROM 512Kbyte by 8bit for DIP packages
+$ENDCMP
+#
+$CMP EEPROM_512K8B_PLCC
+D EEPROM 512Kbyte by 8bit for PLCC packages
+$ENDCMP
+#
+$CMP SRAM_128K8B_DIP_SOP_SOJ
+D SRAM 128KiB by 8Bits suitable for DIP SOP SOJ
+$ENDCMP
+#
+$CMP SRAM_512K8B_DIP_SOP_SOJ
+D SRAM 512KiB by 8Bits suitable for DIP SOP SOJ
+$ENDCMP
+#
+#End Doc Library

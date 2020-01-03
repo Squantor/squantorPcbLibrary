@@ -1,4 +1,4 @@
-(module SOT617-3_alt_paste (layer F.Cu) (tedit 5D1E5CC8)
+(module SOT617-3_alt_paste (layer F.Cu) (tedit 5DB5BEA6)
   (descr "SOT617-3 HVQFN32: plastic thermal enhanced very thin quad flat package; no leads; 32 terminals; body 5 x 5 x 0.85 mm NXP specification")
   (tags "SOT617-3 HVQFN32 NXP alternate paste")
   (solder_paste_ratio -0.1)
@@ -74,4 +74,9 @@
   (pad 33 smd rect (at 0.8 -0.8) (size 1 1) (layers F.Cu F.Paste F.Mask))
   (pad 33 smd rect (at -0.8 0.8) (size 1 1) (layers F.Cu F.Paste F.Mask))
   (pad 33 smd rect (at 0.8 0.8) (size 1 1) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

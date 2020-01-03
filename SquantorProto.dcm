@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Proto_1pin
+D Prototyping area with 1 pin
+K Prototyping area
+$ENDCMP
+#
 #End Doc Library
