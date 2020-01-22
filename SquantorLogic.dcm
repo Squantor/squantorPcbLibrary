@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74X8T245
+D dual supply bidirectional level translator
+K level translator dual supply
+$ENDCMP
+#
 $CMP 74XX00
 D Quad 2-input NAND gate
 K Quad 2-input NAND gate
