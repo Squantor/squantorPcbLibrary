@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GL852G-HH
+D GL825 TSSOP28 package USB 2.0 4 port hub chip
+K USB hub
+$ENDCMP
+#
+#End Doc Library

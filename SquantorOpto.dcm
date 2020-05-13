@@ -1,3 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 6N139
+D 6N139 Optocoupler
+K 6N139 Optocoupler
+$ENDCMP
+#
+$CMP mentor_1296.4124
+D Mentor 1296.4124 quad LED light pipe array
+K Mentor 1296.4124 quad LED array
+$ENDCMP
+#
 #End Doc Library

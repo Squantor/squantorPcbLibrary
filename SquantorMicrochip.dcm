@@ -1,3 +1,38 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MCP1525
+D MCP1525 2.5V voltage reference
+K MCP1525 voltage reference
+$ENDCMP
+#
+$CMP MCP1702-CB
+D MCP1702 LDO
+K MCP1702 LDO
+$ENDCMP
+#
+$CMP MCP1702-MB
+D MCP1702 LDO
+K MCP1702 LDO
+$ENDCMP
+#
+$CMP MCP355X-E_SN
+D MCP355 series 22bit Sigma Delta ADC
+K MCP3550 MCP3551 MCP3553 ADC Sigma Delta
+$ENDCMP
+#
+$CMP MCP6001T_OT
+D MCP6001 opamp
+K MCP6001 Opamp
+$ENDCMP
+#
+$CMP MCP6546OT
+D MCP6546 Comparator
+K MCP6546 Comparator
+$ENDCMP
+#
+$CMP MCP738312-OT
+D MCP738312 Miniature Single-Cell, Fully Integrated Li-Ion,Li-Polymer Charge Management Controllers
+K MCP738312 Lithium charger controller
+$ENDCMP
+#
 #End Doc Library
