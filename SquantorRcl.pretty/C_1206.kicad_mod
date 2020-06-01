@@ -1,4 +1,4 @@
-(module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 5415D7BD)
+(module C_1206 (layer F.Cu) (tedit 5ED5264A)
   (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
   (tags "capacitor 1206")
   (attr smd)
@@ -16,8 +16,7 @@
   (fp_line (start -2.3 1.15) (end 2.3 1.15) (layer F.CrtYd) (width 0.05))
   (fp_line (start -2.3 -1.15) (end -2.3 1.15) (layer F.CrtYd) (width 0.05))
   (fp_line (start 2.3 -1.15) (end 2.3 1.15) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1 -1.025) (end -1 -1.025) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1 1.025) (end 1 1.025) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0 -0.8) (end 0 0.8) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -1.5 0) (size 1 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.5 0) (size 1 1.6) (layers F.Cu F.Paste F.Mask))
   (model Capacitors_SMD.3dshapes/C_1206.wrl
