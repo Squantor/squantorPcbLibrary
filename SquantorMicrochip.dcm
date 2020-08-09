@@ -25,9 +25,14 @@ D MCP6001 opamp
 K MCP6001 Opamp
 $ENDCMP
 #
-$CMP MCP6546OT
-D MCP6546 Comparator
-K MCP6546 Comparator
+$CMP MCP6541
+D MCP6546 CMOS Comparator with push-pull output
+K MCP6546 CMOS Comparator push pull
+$ENDCMP
+#
+$CMP MCP6546
+D MCP6546 Comparator with open drain output
+K MCP6546 Comparator open drain
 $ENDCMP
 #
 $CMP MCP738312-OT
