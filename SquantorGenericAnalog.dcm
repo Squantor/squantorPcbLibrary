@@ -1,3 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP reference_sot23-3
+D General purpose reference symbol in SOT23-3
+K General reference SOT23-3
+$ENDCMP
+#
+$CMP regulator_sot23
+D General purpose regulator symbol in SOT23-3
+K General regulator SOT23-3
+$ENDCMP
+#
 #End Doc Library
