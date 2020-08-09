@@ -5,6 +5,16 @@ D 6N139 Optocoupler
 K 6N139 Optocoupler
 $ENDCMP
 #
+$CMP PPG_sensor_PD_flipped
+D PPG sensor with the photodiode in antiparallel with the LEDS
+K PPG sensor
+$ENDCMP
+#
+$CMP PPG_sensor_PD_straight
+D PPG sensor with the photodiode in parallel with the LEDS
+K PPG sensor
+$ENDCMP
+#
 $CMP mentor_1296.4124
 D Mentor 1296.4124 quad LED light pipe array
 K Mentor 1296.4124 quad LED array
