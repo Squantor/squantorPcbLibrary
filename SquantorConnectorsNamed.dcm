@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP expansion_small_left_LPC82XJHI33
+D Small Nuclone expansion board left connector with pins for the LPC82XJHI33 nuclone
+K small nuclone expansion LPC82XJHI33
+$ENDCMP
+#
+$CMP expansion_small_right_LPC82XJHI33
+D Small Nuclone expansion board right connector with pins for the LPC82XJHI33 nuclone
+K Small nuclone expansion right LPC82XJHI33
+$ENDCMP
+#
 $CMP nuclone_medium_left
 D medium Nuclone left hand connector
 K medium nuclone
