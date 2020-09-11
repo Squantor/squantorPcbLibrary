@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP batt_recharge
+D Rechargable battery connector
+K Rechargable battery connector
+$ENDCMP
+#
 $CMP expansion_small_left_LPC82XJHI33
 D Small Nuclone expansion board left connector with pins for the LPC82XJHI33 nuclone
 K small nuclone expansion LPC82XJHI33
