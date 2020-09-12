@@ -5,4 +5,9 @@ D Prototyping area with 1 pin
 K Prototyping area
 $ENDCMP
 #
+$CMP testpad
+D Round single test pad
+K testpad
+$ENDCMP
+#
 #End Doc Library
