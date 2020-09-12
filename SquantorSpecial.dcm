@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP starground
+D Star ground symbol 8 way
+K Starground
+$ENDCMP
+#
 #End Doc Library
