@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LM399
+D LM399 buried zener reference with heater
+K LM399 buried zener reference heater
+$ENDCMP
+#
 #End Doc Library
