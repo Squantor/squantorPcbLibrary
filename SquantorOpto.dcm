@@ -5,18 +5,6 @@ D 6N139 Optocoupler
 K 6N139 Optocoupler
 $ENDCMP
 #
-$CMP LED
-D Light emitting diode
-K LED diode
-F ~
-$ENDCMP
-#
-$CMP LED_cooled
-D Light emitting diode with cooling pad pin
-K LED diode cooled
-F ~
-$ENDCMP
-#
 $CMP PPG_sensor_PD_flipped
 D PPG sensor with the photodiode in antiparallel with the LEDS
 K PPG sensor

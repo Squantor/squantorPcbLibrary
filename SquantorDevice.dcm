@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP LED_cooled
+D Light emitting diode with cooling pad pin
+K LED diode cooled
+F ~
+$ENDCMP
+#
 $CMP Q_NMOS_DUAL
 D Transistor N-MOSFET with substrate diode (general)
 K NMOS n-mos n-mosfet transistor
