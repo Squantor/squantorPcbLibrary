@@ -5,6 +5,11 @@ D General 25XNN style SPI flash memory
 K SPI Flash Memory
 $ENDCMP
 #
+$CMP 25XNN_9pin_serial_flash
+D General 25XNN style SPI flash memory with provision for a ground pad
+K SPI Flash Memory
+$ENDCMP
+#
 $CMP EEPROM_512K8B_DIP
 D EEPROM 512Kbyte by 8bit for DIP packages
 $ENDCMP
