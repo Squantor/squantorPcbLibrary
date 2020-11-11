@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LPC1114FBD48_302
+D NXP Microcontroller LPC1114 LQFP48 
+K MCU NXP LPC1114
+$ENDCMP
+#
 #End Doc Library
