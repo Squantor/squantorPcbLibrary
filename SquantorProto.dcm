@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP KOSMOS_1x1_protoarea
+D KOSMOS 1 by 1 prototyping area
+K KOSMOS prototyping
+$ENDCMP
+#
 $CMP Proto_1pin
 D Prototyping area with 1 pin
 K Prototyping area
