@@ -1,22 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# KOSMOS_1x1_protoarea
-#
-DEF KOSMOS_1x1_protoarea U 0 40 Y Y 1 F N
-F0 "U" 0 200 50 H V C CNN
-F1 "KOSMOS_1x1_protoarea" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -150 150 150 -150 0 1 0 f
-X 1 1 -250 50 100 R 50 50 1 1 B
-X 2 2 -250 -50 100 R 50 50 1 1 B
-X 3 3 250 -50 100 L 50 50 1 1 B
-X 4 4 250 50 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # KOSMOS_1x2_protoarea
 #
 DEF KOSMOS_1x2_protoarea U 0 40 Y Y 1 F N
@@ -55,19 +39,19 @@ X 8 8 250 150 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# KOSMOS_2x2_protoarea
+# KOSMOS_protoarea_4pin
 #
-DEF KOSMOS_2x2_protoarea U 0 40 Y Y 1 F N
+DEF KOSMOS_protoarea_4pin U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
-F1 "KOSMOS_2x2_protoarea" 0 -200 50 H V C CNN
+F1 "KOSMOS_protoarea_4pin" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 S -150 150 150 -150 0 1 0 f
 X 1 1 -250 50 100 R 50 50 1 1 B
 X 2 2 -250 -50 100 R 50 50 1 1 B
-X 3 ~ 250 -50 100 L 50 50 1 1 B
-X 4 ~ 250 50 100 L 50 50 1 1 B
+X 3 3 250 -50 100 L 50 50 1 1 B
+X 4 4 250 50 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
