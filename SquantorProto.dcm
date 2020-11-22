@@ -15,6 +15,11 @@ D KOSMOS 1 by 1 prototyping area
 K KOSMOS prototyping
 $ENDCMP
 #
+$CMP KOSMOS_protoarea_6pin
+D KOSMOS 1 by 2 prototyping area
+K KOSMOS prototyping
+$ENDCMP
+#
 $CMP Proto_1pin
 D Prototyping area with 1 pin
 K Prototyping area
