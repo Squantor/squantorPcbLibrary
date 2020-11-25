@@ -1,4 +1,4 @@
-(module C-025_050_075-030X100 (layer F.Cu) (tedit 5FBED8D0)
+(module C-025_050_075-030X100 (layer F.Cu) (tedit 5FBEDB4E)
   (descr "Through hole Film capacitor multipitch 2.5mm 5.0mm and 7.5mm size 3.0 by 10.0mm")
   (tags "Film capacitor multipitch")
   (fp_text reference REF** (at 0 -3) (layer F.SilkS)
@@ -25,4 +25,19 @@
   (pad 1 thru_hole circle (at -3.75 0) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.5 0) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 3.75 0) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02.step
+    (offset (xyz -1.25 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L10.0mm_W3.0mm_P7.50mm_FKS3_FKP3.step
+    (offset (xyz -3.75 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.step
+    (offset (xyz -2.5 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
