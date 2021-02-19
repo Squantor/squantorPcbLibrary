@@ -15,6 +15,11 @@ D Small Nuclone expansion board right connector with pins for the LPC82XJHI33 nu
 K Small nuclone expansion right LPC82XJHI33
 $ENDCMP
 #
+$CMP nuclone_left_LPC82XHI33
+D left connector for the LPC82XHI33 nuclone
+K nuclone LPC82XHI33
+$ENDCMP
+#
 $CMP nuclone_medium_left
 D medium Nuclone left hand connector
 K medium nuclone
@@ -23,6 +28,11 @@ $ENDCMP
 $CMP nuclone_medium_right
 D Medium nuclone right hand connector
 K medium nuclone right
+$ENDCMP
+#
+$CMP nuclone_right_LPC82XHI33
+D right connector for the LPC82XJHI33 nuclone
+K nuclone LPC82XHI33
 $ENDCMP
 #
 $CMP nuclone_small_left
