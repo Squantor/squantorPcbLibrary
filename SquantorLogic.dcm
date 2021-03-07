@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74X1GX04
+D Crystal oscillator driver
+K crystal oscillator driver
+$ENDCMP
+#
 $CMP 74X8T245
 D dual supply bidirectional level translator
 K level translator dual supply
