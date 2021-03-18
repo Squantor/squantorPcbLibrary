@@ -35,4 +35,9 @@ D Quad 2-input OR gate
 K Quad 2-input OR gate
 $ENDCMP
 #
+$CMP Generic_LL_5pin
+D Generic Little logic 5 pin device
+K Generic Little Logic 5pin
+$ENDCMP
+#
 #End Doc Library
