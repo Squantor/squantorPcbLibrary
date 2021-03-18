@@ -40,4 +40,9 @@ D Generic Little logic 5 pin device
 K Generic Little Logic 5pin
 $ENDCMP
 #
+$CMP Generic_LL_6pin
+D Generic Little logic 6 pin device
+K Generic Little Logic 6pin
+$ENDCMP
+#
 #End Doc Library
