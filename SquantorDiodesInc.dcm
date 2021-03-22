@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AL5802
+D AL5802 Adjustable current sink LED driver
+K AL5802 current sink LED driver
+$ENDCMP
+#
+$CMP AL8805
+D AL8805 Buck LED driver
+K AL8805 LED driver
+$ENDCMP
+#
+#End Doc Library
