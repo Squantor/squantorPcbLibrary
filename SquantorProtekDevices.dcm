@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRV05-4
+D ESD TVS diode array
+K ESD TVS diode
+$ENDCMP
+#
+#End Doc Library
