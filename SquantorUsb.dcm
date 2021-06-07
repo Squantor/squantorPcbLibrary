@@ -1,3 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP USB-C_PD
+D USB-C Power delivery only
+K USB-C
+$ENDCMP
+#
+$CMP USB-C_PD_USB
+D USB-C Power delivery and USB 2.0 connections
+K USB-C
+$ENDCMP
+#
 #End Doc Library
