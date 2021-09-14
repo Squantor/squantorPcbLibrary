@@ -1,4 +1,4 @@
-(module SOT_universal (layer F.Cu) (tedit 6140F4FB)
+(module SOT_universal (layer F.Cu) (tedit 6140F514)
   (descr "Small outline transistor, semiuniversal footprint")
   (tags "SOT universal")
   (attr smd)
