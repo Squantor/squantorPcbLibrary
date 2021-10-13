@@ -87,4 +87,16 @@ X Shield S 300 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# keycap_1
+#
+DEF keycap_1 cap 0 40 Y Y 1 F N
+F0 "cap" 0 50 50 H V C CNN
+F1 "keycap_1" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 100 -100 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 #End Library
