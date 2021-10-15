@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP REG710
+D REG710xx Buck-Boost Charge Pump with 60mA output current
+K REG710 charge pump
+$ENDCMP
+#
 #End Doc Library
