@@ -99,4 +99,16 @@ S -100 100 100 -100 0 1 0 f
 ENDDRAW
 ENDDEF
 #
+# keycap_2
+#
+DEF keycap_2 cap 0 40 Y Y 1 F N
+F0 "cap" 0 50 50 H V C CNN
+F1 "keycap_2" 0 -50 50 H V C CNN
+F2 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+DRAW
+S -200 100 200 -100 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 #End Library

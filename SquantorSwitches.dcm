@@ -17,4 +17,9 @@ D 1 size keycap
 K keycap
 $ENDCMP
 #
+$CMP keycap_2
+D 2 size keycap
+K keycap
+$ENDCMP
+#
 #End Doc Library
