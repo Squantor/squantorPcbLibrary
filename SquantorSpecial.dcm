@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP generic_5pin_sot
+D generic IC component for SOT5 pin devices
+K generic IC
+$ENDCMP
+#
 $CMP starground
 D Star ground symbol 8 way
 K Starground

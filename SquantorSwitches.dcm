@@ -12,4 +12,14 @@ K rotary switch encoder switch push button
 F ~
 $ENDCMP
 #
+$CMP keycap_1
+D 1 size keycap
+K keycap
+$ENDCMP
+#
+$CMP keycap_2
+D 2 size keycap
+K keycap
+$ENDCMP
+#
 #End Doc Library
