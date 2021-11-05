@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Generic_SOT23-3
+D generic 3 pin sot
+K generic
+$ENDCMP
+#
 $CMP LED
 D Light emitting diode
 K LED diode
