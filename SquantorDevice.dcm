@@ -1,8 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Generic_SOT23-3
-D generic 3 pin sot
-K generic
+$CMP Generic_3pin_IC
+D Generic 3 pin IC
+K Generic 3pin
+$ENDCMP
+#
+$CMP Generic_6pin_IC
+D Generic 6 pin IC
+K Generic 6pin
 $ENDCMP
 #
 $CMP LED
