@@ -1,6 +1,6 @@
-(module solder_jumper_3way_noconn (layer F.Cu) (tedit 5D84B7AE)
+(module solder_jumper_0402_3way_noconn (layer F.Cu) (tedit 62011625)
   (descr "Solder Jumper 3way 0402 resistor format, not connected")
-  (tags "resistor 0402")
+  (tags "solderjumper 0402 3way")
   (attr smd)
   (fp_text reference REF** (at 0 -1.3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
