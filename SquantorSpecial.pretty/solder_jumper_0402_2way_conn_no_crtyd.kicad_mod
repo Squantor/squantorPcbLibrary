@@ -1,5 +1,5 @@
-(module solder_jumper_0402_2way_conn_no_crtyd (layer F.Cu) (tedit 62011647)
-  (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
+(module solder_jumper_0402_2way_conn_no_crtyd (layer F.Cu) (tedit 621F7246)
+  (descr "Solder Jumper 2way 0402 resistor format, no connection, no courtyard")
   (tags "solderjumper 0402 2way")
   (attr smd)
   (fp_text reference REF** (at 0 -1.2) (layer F.SilkS)

@@ -1,5 +1,5 @@
-(module solder_jumper_0402_2way_conn (layer F.Cu) (tedit 6201164C)
-  (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
+(module solder_jumper_0402_2way_conn (layer F.Cu) (tedit 621F723E)
+  (descr "Solder Jumper 2way 0402 resistor format, connected")
   (tags "solderjumper 0402 2way")
   (attr smd)
   (fp_text reference REF** (at 0 -1.8) (layer F.SilkS)
