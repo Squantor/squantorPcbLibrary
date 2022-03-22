@@ -5,4 +5,9 @@ D Standard 16*2 LCD pinout used by many vendors
 K LCD 16*2
 $ENDCMP
 #
+$CMP polulu_step_drive
+D Polulu 16 pin stepper motor driver
+K Polulu stepper motor
+$ENDCMP
+#
 #End Doc Library
