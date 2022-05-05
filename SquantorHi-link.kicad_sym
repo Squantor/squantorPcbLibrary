@@ -24,7 +24,7 @@
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at -8.89 -1.27 0) (length 2.54)
-        (name "Phase" (effects (font (size 1.27 1.27))))
+        (name "Neutral" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin power_out line (at 8.89 1.27 180) (length 2.54)
