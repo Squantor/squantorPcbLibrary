@@ -65,22 +65,22 @@
   (pad "9" smd rect (at 3.6 -3.6) (size 1.6 1.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4e4e4c02-3927-4880-8343-2b01c5409ca9))
   (pad "10" smd rect (at 0 -2.025) (size 2 3.35) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp abdcae77-070b-430d-8d5c-fe8493adcce1))
   (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
-    (offset (xyz -3.6 2.1 0))
+    (offset (xyz -3.6 2.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
   (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
-    (offset (xyz -3.6 -2.1 0))
+    (offset (xyz -3.6 -2.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
   (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
-    (offset (xyz 3.6 -2.1 0))
+    (offset (xyz 3.6 -2.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
   (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
-    (offset (xyz 3.6 2.1 0))
+    (offset (xyz 3.6 2.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
