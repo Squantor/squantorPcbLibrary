@@ -1,4 +1,4 @@
 [submodule "SquantorPcbComponentLibrary"]
 	path = SquantorPcbComponentLibrary
-	url = https://github.com/Squantor/SquantorPcbComponentLibrary.git
+	url = git@github.com:Squantor/squantorPcbLibrary.git
 	branch = master
