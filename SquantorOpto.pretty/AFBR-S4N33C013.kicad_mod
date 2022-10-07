@@ -1,6 +1,8 @@
 (footprint "AFBR-S4N33C013" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
+  (descr "Broadcom AFBR-S4N33C013 SiPM")
+  (tags "SiPM")
   (attr smd)
   (fp_text reference "REF**" (at 0 -2.7 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
