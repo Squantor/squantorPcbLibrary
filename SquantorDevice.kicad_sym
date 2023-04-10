@@ -236,7 +236,7 @@
           (xy 0 1.905)
         )
         (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type background))
+        (fill (type outline))
       )
     )
     (symbol "LED_Dual_CC_1_1"
