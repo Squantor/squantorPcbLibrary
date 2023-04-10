@@ -174,7 +174,7 @@
       )
     )
   )
-  (symbol "LED_Dual_CC" (in_bom yes) (on_board yes)
+  (symbol "LED_Dual_CC" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "LED" (id 0) (at 0 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
