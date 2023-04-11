@@ -37,9 +37,9 @@
   (fp_line (start 1.5 6.05) (end 1.5 5.25) (layer "F.Fab") (width 0.12) (tstamp 129ae20a-fc74-49fb-9d10-2c6dd835553f))
   (fp_line (start -1.5 6.05) (end -1.5 5.25) (layer "F.Fab") (width 0.12) (tstamp c9977d65-73fd-481c-a9c9-9b831455efcb))
   (fp_arc (start 1.5 6.05) (mid 0 7.55) (end -1.5 6.05) (layer "F.Fab") (width 0.12) (tstamp 5191029f-fe6e-4ac3-b0b6-35be99ef9df6))
-  (pad "1" thru_hole circle (at -2.54 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp f5a735a3-bb7a-4450-8f69-3e777ea1206f))
-  (pad "2" thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp a790aac6-69ca-4931-a160-c62ac85dc949))
-  (pad "3" thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp d0bb726a-6ddc-42ed-9a8f-92f3e91aac8b))
+  (pad "1" thru_hole circle (at -2.54 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask) (tstamp f5a735a3-bb7a-4450-8f69-3e777ea1206f))
+  (pad "2" thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask) (tstamp a790aac6-69ca-4931-a160-c62ac85dc949))
+  (pad "3" thru_hole circle (at 2.54 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask) (tstamp d0bb726a-6ddc-42ed-9a8f-92f3e91aac8b))
   (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Horizontal_O3.81mm_Z6.0mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
