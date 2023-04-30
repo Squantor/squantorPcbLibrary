@@ -41,11 +41,11 @@
       )
     )
   )
-  (symbol "Coax_with_shield" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "Coax_shielded" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 0 3.81 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "Coax_with_shield" (id 1) (at 0 -5.715 0)
+    (property "Value" "Coax_shielded" (id 1) (at 0 -5.715 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "" (id 2) (at 0 0 0)
@@ -60,7 +60,7 @@
     (property "ki_description" "Coaxial connector with a shield pin S" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "Coax_with_shield_0_1"
+    (symbol "Coax_shielded_0_1"
       (polyline
         (pts
           (xy -2.54 0)
@@ -82,7 +82,7 @@
         (fill (type none))
       )
     )
-    (symbol "Coax_with_shield_1_1"
+    (symbol "Coax_shielded_1_1"
       (pin passive line (at -3.81 0 0) (length 1.27)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
