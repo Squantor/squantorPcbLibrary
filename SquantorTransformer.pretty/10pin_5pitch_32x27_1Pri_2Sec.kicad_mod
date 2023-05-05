@@ -3,7 +3,7 @@
   (tedit 0)
   (descr "10pin transformer 5mm pitch 32 by 27mm")
   (tags "10pin transformer")
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "REF**" (at 0 -15 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e72c120f-eeee-43af-9e7a-a2c2f143a61d)

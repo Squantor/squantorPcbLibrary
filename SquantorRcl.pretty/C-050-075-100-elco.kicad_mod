@@ -3,7 +3,7 @@
   (tedit 0)
   (descr "universal electrolytic capacitor footprint 5mm, 7.5mm 10mm")
   (tags "universal capacitor")
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "REF**" (at 0 -4 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b8bc31d9-5b5d-489c-9016-f6eac3dcc1e3)
