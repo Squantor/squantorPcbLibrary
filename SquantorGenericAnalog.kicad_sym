@@ -400,6 +400,48 @@
     (property "ki_description" "TL431 programmable shunt regulator SOT-23" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "TL431_SOT-23_0_1"
+      (polyline
+        (pts
+          (xy -2.54 2.54)
+          (xy -1.27 2.54)
+          (xy -1.27 -1.27)
+          (xy 0 -1.27)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.762 -1.524)
+          (xy -0.508 -1.778)
+          (xy 0.508 -1.778)
+          (xy 0.762 -2.032)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -1.778)
+          (xy 0.508 -0.889)
+          (xy -0.508 -0.889)
+          (xy 0 -1.778)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 0)
+          (xy 0 0)
+          (xy 0 -2.54)
+          (xy -2.54 -2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
     (symbol "TL431_SOT-23_1_1"
       (rectangle (start -2.54 5.08) (end 2.54 -5.08)
         (stroke (width 0) (type default))
