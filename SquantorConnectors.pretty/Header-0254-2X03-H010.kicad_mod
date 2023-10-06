@@ -63,7 +63,7 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 6ee0afc1-4858-4def-990c-3cfac62b8a9f))
-  (pad "1" thru_hole rect (at -2.54 1.27) (size 1.4 1.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 73e56555-25f5-4b70-af70-e709927a8507))
+  (pad "1" thru_hole roundrect (at -2.54 1.27) (size 1.4 1.4) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.2) (tstamp 73e56555-25f5-4b70-af70-e709927a8507))
   (pad "2" thru_hole circle (at -2.54 -1.27) (size 1.4 1.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 6e355c5b-29e9-47bb-bde4-0806f4328f17))
   (pad "3" thru_hole circle (at 0 1.27) (size 1.4 1.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 715e7eb8-aeef-484d-9ee2-09596fd676bf))
   (pad "4" thru_hole circle (at 0 -1.27) (size 1.4 1.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp ee911e9f-b8e5-4968-bc64-7b6109642e2c))
