@@ -77,10 +77,10 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 6c1a9dfa-966e-446c-ac5c-9ccbf625e7b0))
-  (pad "1" thru_hole rect (at -3.81 0 180) (size 1.3 1.3) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 1e9c57a3-48ae-438c-88f7-1c743f4ff841))
-  (pad "2" thru_hole circle (at -1.27 0 180) (size 1.3 1.3) (drill 1) (layers "*.Cu" "*.Mask") (tstamp e82be75a-f173-49c4-8d59-b8ace923a587))
-  (pad "3" thru_hole circle (at 1.27 0 180) (size 1.3 1.3) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 348ccb4c-4b85-4f80-b64e-c57a9526b800))
-  (pad "4" thru_hole circle (at 3.81 0 180) (size 1.3 1.3) (drill 1) (layers "*.Cu" "*.Mask") (tstamp c2a0599a-ade2-47db-bf61-f55bea616af1))
+  (pad "1" thru_hole rect (at -3.81 0 180) (size 1.4 1.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 1e9c57a3-48ae-438c-88f7-1c743f4ff841))
+  (pad "2" thru_hole circle (at -1.27 0 180) (size 1.4 1.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp e82be75a-f173-49c4-8d59-b8ace923a587))
+  (pad "3" thru_hole circle (at 1.27 0 180) (size 1.4 1.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 348ccb4c-4b85-4f80-b64e-c57a9526b800))
+  (pad "4" thru_hole circle (at 3.81 0 180) (size 1.4 1.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp c2a0599a-ade2-47db-bf61-f55bea616af1))
   (model ":KICAD7_3DMODEL_DIR:Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
     (offset (xyz -3.81 0 0))
     (scale (xyz 1 1 1))
