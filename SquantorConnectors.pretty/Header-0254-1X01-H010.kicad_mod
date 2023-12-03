@@ -36,4 +36,9 @@
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 95471f8e-c850-4777-8632-806a78f6c8b3))
   (pad "1" thru_hole rect (at 0 0 180) (size 1.4 1.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 1ee30642-9093-49db-a530-e608cb62de75))
+  (model ":KICAD7_3DMODEL_DIR:Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
