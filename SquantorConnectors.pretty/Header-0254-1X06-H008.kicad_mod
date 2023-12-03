@@ -1,6 +1,6 @@
 (footprint "Header-0254-1X06-H008" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "PIN HEADER")
+  (descr "1 by 6 pinheader with 0.8mm holes and 2.54mm grid")
   (tags "PIN HEADER")
   (attr exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS")
@@ -97,6 +97,14 @@
     (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 692f2001-c756-4d21-8924-c8463e18f436))
   (fp_line (start 7.62 0.635) (end 6.985 1.27)
     (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp c999485d-0074-452d-9d1f-8965692824d3))
+  (fp_poly
+    (pts
+      (xy -7.874 0.8255)
+      (xy -7.874 1.524)
+      (xy -7.1755 1.524)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp a528efd5-faec-479a-818c-0436de7b71a7))
   (pad "1" thru_hole trapezoid (at -6.35 0 180) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 8c00a97f-53f8-4f23-8888-2a7cc91ec325))
   (pad "2" thru_hole circle (at -3.81 0 180) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 4871c41a-b72f-4ea2-a5f3-2233a2dd7d07))
   (pad "3" thru_hole circle (at -1.27 0 180) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 921579bd-716b-4cdf-a4c6-701acbfcc88e))
