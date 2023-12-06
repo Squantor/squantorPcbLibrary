@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "SOD-323 on semiconductor")
   (tags "SOD-323")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -1.6) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d5601a45-793c-4b15-b627-58d60168d330)
