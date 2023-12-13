@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "Nuclone Medium Right")
   (tags "Nuclone Medium Right")
-  (attr exclude_from_pos_files exclude_from_bom)
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at -22.86 -5.08 -90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f7052d0b-7b18-4e0b-9fc5-bedee5a3d103)

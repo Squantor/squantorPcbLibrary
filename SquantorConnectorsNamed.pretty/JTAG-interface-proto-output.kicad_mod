@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "Output connector for JTAG/SWD prototyping circuit")
   (tags "named connector JTAG SWD prototype output")
-  (attr exclude_from_pos_files exclude_from_bom)
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 762be398-5820-4a29-bf55-b6f3d9c08a46)

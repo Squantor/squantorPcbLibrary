@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "Nuclone Medium Left side pinheader, 1.35mm holes for pogo pin sockets")
   (tags "Nuclone Medium Left pogo pin")
-  (attr exclude_from_pos_files exclude_from_bom)
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 -3.5) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2df6b911-b757-4138-8333-ad71e01d7028)

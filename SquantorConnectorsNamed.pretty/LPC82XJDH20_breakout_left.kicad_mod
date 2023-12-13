@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "Labeled left side pinheader for the LPC82X TSSOP20 breakout")
   (tags "LPC82XJDH20 breakout left")
-  (attr exclude_from_pos_files exclude_from_bom)
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 88af2080-cbe7-48cf-abd1-1f0e55d80394)

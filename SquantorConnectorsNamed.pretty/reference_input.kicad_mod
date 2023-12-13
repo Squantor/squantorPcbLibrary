@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "PIN HEADER")
   (tags "PIN HEADER")
-  (attr exclude_from_pos_files exclude_from_bom)
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 770368c6-ece2-443e-8f4a-c9b178df770e)
