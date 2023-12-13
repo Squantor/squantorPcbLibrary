@@ -1,6 +1,6 @@
 (footprint "SOT223-3-Microchip_DB" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -6) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d9e9cda0-ea5f-4fa0-b669-5421cdbc08f8)

@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "medium nuclone left header stacked")
   (tags "medium nuclone left header stacked")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -22.86 -6.985 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 22e405dc-29cc-4c87-8839-6206d734a176)
