@@ -57,12 +57,12 @@
   (pad "2" thru_hole circle (at 1.25 0) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp af29f1af-4417-4f22-a8c5-39ca9003935d))
   (pad "2" smd roundrect (at 2 0) (size 3 4.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1) (tstamp e683f4a1-4c87-452e-8c12-900bb8200d65))
   (pad "2" thru_hole circle (at 2.5 0) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp fc429a50-a0c7-46e0-83ea-3e5edfb07375))
-  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.step"
+  (model "${KICAD7_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.step"
     (offset (xyz -2.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_2512_6332Metric.step"
+  (model "${KICAD7_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_2512_6332Metric.step"
     (offset (xyz 0 0 -1.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))

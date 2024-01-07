@@ -17,6 +17,10 @@
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 02a6bd18-9345-476f-ac19-139de46166ad))
   (fp_line (start -2.7 1.1) (end -1.7 1.1)
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 6011a59f-61ea-40e7-ad1b-fab45ab6671f))
+  (fp_line (start 0 -0.8) (end 0 -0.4)
+    (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp a5150612-666b-444e-8ef4-79cb50d18fef))
+  (fp_line (start 0 0.8) (end 0 0.4)
+    (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp f8d218f6-9a21-489c-a6c3-c17494292e1d))
   (fp_line (start -2.75 -1.2) (end -2.75 1.2)
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp c6c856f2-8e8c-4a85-9734-df4f06437dfc))
   (fp_line (start -2.75 1.2) (end 2.75 1.2)
@@ -39,7 +43,7 @@
     (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 58da3fa2-2f0e-4b97-925b-5195127f3722))
   (pad "1" smd roundrect (at -1.375 0) (size 1.95 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp bd3b84a0-7c50-474a-b382-b741270d2712))
   (pad "2" smd roundrect (at 1.375 0) (size 1.95 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 52803a5c-43ba-4b10-b153-4cc4d4c27c5c))
-  (model "${KICAD6_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3216-18_Kemet-A.step"
+  (model "${KICAD7_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3216-18_Kemet-A.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -29,7 +29,7 @@
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 3495c038-ec42-4aed-a10f-66c3d42af889))
   (pad "1" thru_hole circle (at -3.75 0) (size 1.4 1.4) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 8ffff45b-92d6-4c70-abf2-ab38e31649c0))
   (pad "2" thru_hole circle (at 3.75 0) (size 1.4 1.4) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp ca551e3a-c11b-4c1e-b9ec-1c40d07accf9))
-  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D10.5mm_W5.0mm_P7.50mm.step"
+  (model "${KICAD7_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D10.5mm_W5.0mm_P7.50mm.step"
     (offset (xyz -3.75 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
