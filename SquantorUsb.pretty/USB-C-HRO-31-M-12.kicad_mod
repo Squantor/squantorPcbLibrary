@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "USB-C HRO-31-M-12 connector")
   (tags "USB-C")
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "REF**" (at 0 -1.7) (layer "F.SilkS")
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     (tstamp 9fb545be-9aed-4de0-8ee1-9a9861088433)
