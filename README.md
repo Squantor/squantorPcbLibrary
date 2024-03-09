@@ -18,16 +18,14 @@ Here is a short overview of the design rules I use for various objects:
 * Pin, two grid points long
 * Pins placed on package item also on two gridpoints layout
 
-### Components
-* Reference on top, front silk screen, name REF, centered on footprint, keep designators off the courtyard
-* Value bottom, front fabrication layer, name footprint name, centered
+### Footprints
+* Reference on top, front silk screen, name REF, centered on footprint
+* Value bottom, front fabrication layer, name footprint name, centered on footprint
+* Designators are centered at footprint center, not touching courtyard
 * grid: 0.1mm
+* Pin one is a small L in front silk with 0.5mm long legs, put on courtyard
 * Through holes: metric, with 0.4mm annulus (fits aisler low cost design rules)
-* SMD IC's note pin 1 on front silk with some silk lines placed on keepout, a small L shape or full enclosed
 * Keep 0.1mm solder mask clearance
-* Through hole IC's and connectors, square pin 1.
-* Pads are rounded rectangles with 0.2mm chamfer
+* Pads are rounded rectangles with 20 size
 * Courtyard thickness is 0.05mm
-
-## TODO
 
