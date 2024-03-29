@@ -11,6 +11,10 @@
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     (tstamp 867a3d04-e066-457d-ae1f-7572274b49bd)
   )
+  (fp_line (start -1.6 -0.6) (end -1.6 -0.2)
+    (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp fc0b7670-a687-46f0-8412-86f87baab669))
+  (fp_line (start -1.6 -0.6) (end -1.2 -0.6)
+    (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 7185d59c-87c3-42ed-b301-3dc100f14887))
   (fp_poly
     (pts
       (xy -0.3 0)
