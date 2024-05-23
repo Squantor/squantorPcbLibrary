@@ -3,7 +3,7 @@
   (descr "SOT363 Plastic surface-mounted package ON semiconductor specification")
   (tags "SOT363 ON semiconductor")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -1.8) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -1.9) (layer "F.SilkS")
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     (tstamp 253249fa-c5c2-4fd4-bf5b-82006e7377ba)
   )
