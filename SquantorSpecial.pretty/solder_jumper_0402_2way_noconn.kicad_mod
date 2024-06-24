@@ -31,8 +31,8 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 403dc56e-208d-4cbb-aa45-ff0287690ecc))
   (fp_line (start 0.5 0.25) (end -0.5 0.25)
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 78c0cfa5-10a5-4cc2-94cc-07758e55147d))
-  (pad "1" smd roundrect (at -0.425 0) (size 0.65 0.6) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.2) (tstamp a91238fa-db68-483b-8061-bc79fe12c168))
-  (pad "2" smd roundrect (at 0.425 0) (size 0.65 0.6) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.2) (tstamp f41e2a9d-ed2a-4ce4-aa70-d93c208fd94d))
+  (pad "1" smd roundrect (at -0.4 0) (size 0.6 0.6) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.2) (tstamp a91238fa-db68-483b-8061-bc79fe12c168))
+  (pad "2" smd roundrect (at 0.4 0) (size 0.6 0.6) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.2) (tstamp f41e2a9d-ed2a-4ce4-aa70-d93c208fd94d))
   (model "Resistors_SMD.3dshapes/R_0402.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
