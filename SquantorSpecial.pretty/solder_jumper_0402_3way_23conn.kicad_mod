@@ -3,6 +3,7 @@
   (descr "Solder Jumper 3way 0402 resistor format, pin 2,3 connected")
   (tags "solderjumper 0402 3way")
   (attr smd)
+  (net_tie_pad_groups "2, 3")
   (fp_text reference "REF**" (at 0 -1.1) (layer "F.SilkS")
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     (tstamp 5e542472-1cc7-43c9-b18f-ab36ff01ac3f)
