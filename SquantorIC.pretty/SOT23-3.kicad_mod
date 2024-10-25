@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "SOT23 standard 3 pin")
 	(property "Reference" "REF**"
-		(at 0 -2.2 0)
+		(at 0 -2.3 0)
 		(layer "F.SilkS")
 		(uuid "70542aad-9859-4d1d-93b6-576d5691461e")
 		(effects
@@ -67,7 +67,7 @@
 		(start -1.8 -1.7)
 		(end -1.8 -1.2)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -77,7 +77,7 @@
 		(start -1.8 -1.7)
 		(end -1.3 -1.7)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")

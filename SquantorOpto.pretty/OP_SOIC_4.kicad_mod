@@ -291,4 +291,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "2061819f-a79c-431a-bdbf-5f7cb5a628a6")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SO-4_4.4x2.3mm_P1.27mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
