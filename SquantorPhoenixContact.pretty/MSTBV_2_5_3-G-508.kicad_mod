@@ -1,0 +1,84 @@
+(footprint "MSTBV_2_5_3-G-508"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Phoenix contact MSTBVA 2,5/ 2-G-5,08 3 pins")
+	(tags "Phoenix contact MSTBV ")
+	(property "Reference" "REF**"
+		(at 0 -0.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "497a28fe-c60c-4013-9e5d-f761ba250f7f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MSTBV_2_5_3-G-508"
+		(at 0 0.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "344c65e7-2fb0-436d-bf1d-5050214cfe8d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b927a6d-02e3-436e-a631-f13a4e1fd854")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4874b94-8ad9-48bd-b827-1dccc27e1679")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a565840-9dc4-4f7a-836a-d4e490a1527f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4ba9076c-8e9c-40b9-83af-145da5edf4b2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+)

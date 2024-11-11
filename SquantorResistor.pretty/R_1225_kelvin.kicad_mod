@@ -1,0 +1,183 @@
+(footprint "R_1225_kelvin"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Shunt Resistor SMD 1225, TT electronics footprint")
+	(tags "Shunt Resistor 1225")
+	(property "Reference" "REF**"
+		(at 0 -3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "91d01fac-17be-48a1-bf74-3ad48e800beb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_1225_kelvin"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ac00ea47-b2ea-4175-bdd1-76842fb07349")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e35ddd47-a41b-4682-9e28-592bb19f05f9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31e184c6-1c74-423f-bdd4-ca10995f1693")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64edd4ef-a595-4910-a583-909ea05c614d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.1 -2.8)
+		(end 4.1 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "76e737ad-7abb-44d0-8b8f-f30e4b510636")
+	)
+	(fp_line
+		(start -4.1 2.8)
+		(end -4.1 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3575129-f369-451f-9cf6-11b73dfb39b8")
+	)
+	(fp_line
+		(start 4.1 -2.8)
+		(end 4.1 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "79aad958-5138-4f41-8c31-e5d01244b43f")
+	)
+	(fp_line
+		(start 4.1 2.8)
+		(end -4.1 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c71047c6-2f9a-4bd4-b389-30939176f76d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "95398480-95db-4846-9a80-e6e21fccfcf9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.3 -1.5)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "c29942a0-453e-49a1-8982-e10f1ce5125d")
+	)
+	(pad "1" smd roundrect
+		(at 2.3 -1.5)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "78388ad4-56a7-45f2-84d0-ffa9ec1a98f8")
+	)
+	(pad "2" smd roundrect
+		(at 0 -1.5)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "05414bf3-c4cc-48a3-9b64-83d1e2db5929")
+	)
+	(pad "3" smd roundrect
+		(at 0 1.5)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "6484cdc9-bbb3-40b7-9e56-b946eec00d46")
+	)
+	(pad "4" smd roundrect
+		(at -2.3 1.5)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "83c1aff1-4921-4f53-a730-f97387a6fc4c")
+	)
+	(pad "4" smd roundrect
+		(at 2.3 1.5)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "b7d3554e-22c1-4c72-b56b-dd2b2f921d99")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
