@@ -1,0 +1,331 @@
+(footprint "phoenix-MSTBVA-1755752-4p-508-str"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Phoenix Contact MSTBVA 1755752 4 pin plug block 5.08mm pitch ")
+	(tags "phoenix MSTBVA block")
+	(property "Reference" "REF**"
+		(at 0 -12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d46ea221-124b-4e3a-806d-d7809f3a30a1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "phoenix-MSTBVA-1755752-4p-508-str"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f4017918-b001-40cf-93d1-2da4ee2fe40d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d99c48ce-b4b5-4219-ae49-15429fbabee0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edbecdac-f4b8-4ec0-9386-bcee235983c2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5f604bb-3c7c-4b61-b42c-aa81cab78e41")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -11.16 -4.3)
+		(end 11.16 -4.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e7864051-f325-49f8-9ef6-246168aae582")
+	)
+	(fp_line
+		(start -11.16 4.3)
+		(end -11.16 -4.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f16ec36-70b3-4dae-bd45-0763d9f5c221")
+	)
+	(fp_line
+		(start -11.16 4.3)
+		(end 11.16 4.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "89e97402-db34-4bfe-bc0a-36acd827a4e3")
+	)
+	(fp_line
+		(start -10.668 -3.556)
+		(end 10.668 -3.556)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "86c1c458-b720-494a-861a-99fb42c4afda")
+	)
+	(fp_line
+		(start -10.668 3.048)
+		(end -10.668 -3.556)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "49a00602-3746-47d7-871e-a54688c8d378")
+	)
+	(fp_line
+		(start -9.651999 3.048)
+		(end -10.668 3.048)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "de8e5413-b414-45eb-baa1-b5e6c40af966")
+	)
+	(fp_line
+		(start -4.572 3.048)
+		(end -5.588001 3.047999)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fa7c20f8-d27a-450f-b330-e4230b06ba36")
+	)
+	(fp_line
+		(start -0.508 3.048)
+		(end 0.508001 3.048)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97f83922-9f0d-434e-a130-3437a19257d5")
+	)
+	(fp_line
+		(start 4.571999 3.047999)
+		(end 5.588001 3.048)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0d2139dd-db53-4d6c-b401-71e26399ea5d")
+	)
+	(fp_line
+		(start 10.668 -3.556)
+		(end 10.668 3.048)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "58bdb1da-c737-468c-ade7-b6259f1a90bd")
+	)
+	(fp_line
+		(start 10.668 3.048)
+		(end 9.652 3.048)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "23f10e7d-9756-4626-9ca3-65464dac463d")
+	)
+	(fp_line
+		(start 11.16 4.3)
+		(end 11.16 -4.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9cce7d1f-5118-46ee-90b0-b52980e8e2ba")
+	)
+	(fp_arc
+		(start -5.588001 3.047999)
+		(mid -7.62 3.663239)
+		(end -9.651999 3.048)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d3f4c6fe-b100-4bc1-8954-3848c854968e")
+	)
+	(fp_arc
+		(start -0.508 3.048)
+		(mid -2.54 3.66324)
+		(end -4.572 3.048)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ed6ab98f-5f2a-4173-8d59-ad6ce5532905")
+	)
+	(fp_arc
+		(start 4.571999 3.047999)
+		(mid 2.54 3.663239)
+		(end 0.508001 3.048)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9add6de0-8f07-4c0b-bf5b-a40895080452")
+	)
+	(fp_arc
+		(start 9.652 3.048)
+		(mid 7.62 3.66324)
+		(end 5.588001 3.048)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12a99ad5-7de1-4a34-8950-637ef98fc3b1")
+	)
+	(fp_line
+		(start -11.7 -4.8)
+		(end -11.7 4.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f811fd05-e4bf-4bc9-b207-42ffdf6b4329")
+	)
+	(fp_line
+		(start -11.7 4.8)
+		(end 11.7 4.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7c44e65-1ec9-41ef-8d91-2c6ffbcf3216")
+	)
+	(fp_line
+		(start 11.7 -4.8)
+		(end -11.7 -4.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fccb06d3-2ec4-47ce-b864-c2785dd9e8c2")
+	)
+	(fp_line
+		(start 11.7 4.8)
+		(end 11.7 -4.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7c190ea-6083-4c5d-8ed5-35c66f3f3dca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e90ef9ed-576b-462d-ad40-9b8821672bf7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -7.62 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91195476-ec66-43b9-8f2c-d47daf8c58a7")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d782048-36c0-458c-a922-df54e918ad2f")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7c2e7feb-8992-47f1-8513-dbcc356c5fa0")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f573f469-059f-46bf-b2dd-a77d5cb0b7f2")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical.step"
+		(offset
+			(xyz -7.62 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

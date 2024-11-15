@@ -1,0 +1,191 @@
+(footprint "FH_XF-155"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Fuse holder XFCN XF-155 ")
+	(tags "Fuse holder XFCN")
+	(property "Reference" "REF**"
+		(at 0 -3.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "20bad0f4-046d-4b92-8537-5dc8d7d6d4b6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FH_XF-155"
+		(at 0 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf0df671-2a9b-44c5-9c1e-e9c236f864aa")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85371db5-4f5d-485f-ba8d-20f593c17f94")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dc58005-6f3e-421b-af01-fb874617ee71")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1a06e33-c399-442b-8a77-761cb8936a22")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.25 -2.55)
+		(end 5.25 -2.55)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f58603c4-8ca5-43d4-b255-ae176d524de9")
+	)
+	(fp_line
+		(start -5.25 2.55)
+		(end 5.25 2.55)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9b9ebb41-654c-4e8b-8581-35483cd2fac0")
+	)
+	(fp_line
+		(start -6.6 -3.1)
+		(end -6.6 3.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "15c22e95-82e7-4566-a0b8-ad5f7b0394c4")
+	)
+	(fp_line
+		(start -6.6 3.1)
+		(end 6.6 3.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "98dbd39e-dd00-4468-8b3c-493386ba7362")
+	)
+	(fp_line
+		(start 6.6 -3.1)
+		(end -6.6 -3.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "deeef3c5-2870-4c26-aa4b-4c49acfb1e46")
+	)
+	(fp_line
+		(start 6.6 3.1)
+		(end 6.6 -3.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0bfed923-0f2e-4ac2-a952-cf7443ef8b86")
+	)
+	(fp_line
+		(start -5.25 -2.55)
+		(end -5.25 2.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5b31eefa-2de2-4ba1-938f-0f1350e7dc00")
+	)
+	(fp_line
+		(start 5.25 -2.55)
+		(end 5.25 2.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d6d63ff5-7592-4947-88d8-b6151cacb455")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "42415469-843c-4787-9504-19c9a5cb645e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.585 0)
+		(size 5.04 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "44cd04ea-62a3-4fdb-8bb7-d6a1b1622b5a")
+	)
+	(pad "2" smd roundrect
+		(at 3.585 0)
+		(size 5.04 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e2f4f9f6-0e37-407f-8dbd-e2195c415c6b")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Schurter_0031.7701.xx.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
