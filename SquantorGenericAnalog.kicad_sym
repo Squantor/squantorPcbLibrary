@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 6.35 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,8 +60,8 @@
 		)
 		(symbol "LM1117_1_1"
 			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -5.08)
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -134,7 +134,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 6.35 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -142,7 +142,7 @@
 			)
 		)
 		(property "Value" "LM317"
-			(at 0 -6.35 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185,11 +185,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "LM317_0_1"
-			(polyline
-				(pts
-					(xy -2.54 5.08) (xy -2.54 -5.08) (xy 2.54 -5.08) (xy 2.54 5.08) (xy -2.54 5.08)
-				)
+		(symbol "LM317_1_1"
+			(rectangle
+				(start -2.54 3.81)
+				(end 2.54 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -198,8 +197,6 @@
 					(type background)
 				)
 			)
-		)
-		(symbol "LM317_1_1"
 			(pin input line
 				(at -5.08 2.54 0)
 				(length 2.54)
@@ -264,7 +261,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 7.62 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -272,7 +269,7 @@
 			)
 		)
 		(property "Value" "LM317L-SOIC"
-			(at 0 -7.62 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -308,8 +305,8 @@
 		)
 		(symbol "LM317L-SOIC_0_1"
 			(rectangle
-				(start -6.35 6.35)
-				(end 6.35 -6.35)
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -474,7 +471,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 6.35 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,7 +479,7 @@
 			)
 		)
 		(property "Value" "LM337"
-			(at 0 -6.35 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -525,11 +522,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "LM337_0_1"
-			(polyline
-				(pts
-					(xy -2.54 5.08) (xy -2.54 -5.08) (xy 2.54 -5.08) (xy 2.54 5.08) (xy -2.54 5.08)
-				)
+		(symbol "LM337_1_1"
+			(rectangle
+				(start -2.54 3.81)
+				(end 2.54 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -538,8 +534,6 @@
 					(type background)
 				)
 			)
-		)
-		(symbol "LM337_1_1"
 			(pin input line
 				(at -5.08 2.54 0)
 				(length 2.54)
@@ -604,7 +598,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 7.62 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,7 +606,7 @@
 			)
 		)
 		(property "Value" "LM337L-SOIC"
-			(at 0 -7.62 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -648,8 +642,8 @@
 		)
 		(symbol "LM337L-SOIC_0_1"
 			(rectangle
-				(start -6.35 6.35)
-				(end 6.35 -6.35)
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -806,20 +800,20 @@
 			)
 		)
 	)
-	(symbol "LM78XX"
+	(symbol "LM78LXX"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -3.81 6.35 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM78XX"
-			(at 1.27 -6.35 0)
+		(property "Value" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -827,7 +821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -2.54 0 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -836,7 +830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -2.54 0 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,10 +847,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "LM78XX_0_1"
+		(symbol "LM78LXX_1_1"
 			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -5.08)
+				(start -2.54 3.81)
+				(end 2.54 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -865,12 +859,10 @@
 					(type background)
 				)
 			)
-		)
-		(symbol "LM78XX_1_1"
-			(pin power_in line
-				(at -7.62 2.54 0)
+			(pin power_out line
+				(at -5.08 2.54 0)
 				(length 2.54)
-				(name "Input"
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -886,9 +878,126 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 0 0)
+				(at -5.08 0 0)
 				(length 2.54)
-				(name "Common"
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LM78XX"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM78XX"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM78XX_0_1"
+			(rectangle
+				(start -2.54 3.81)
+				(end 2.54 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "LM78XX_1_1"
+			(pin power_in line
+				(at -5.08 2.54 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "COM"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -904,9 +1013,9 @@
 				)
 			)
 			(pin power_out line
-				(at -7.62 -2.54 0)
+				(at -5.08 -2.54 0)
 				(length 2.54)
-				(name "Output"
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -931,7 +1040,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 7.62 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -939,7 +1048,7 @@
 			)
 		)
 		(property "Value" "NE555_timer"
-			(at 0 -7.62 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,8 +1084,8 @@
 		)
 		(symbol "NE555_timer_0_1"
 			(rectangle
-				(start -7.62 6.35)
-				(end 7.62 -6.35)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
