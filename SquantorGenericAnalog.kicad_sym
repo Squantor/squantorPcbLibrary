@@ -1606,7 +1606,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 5.08 0 180)
 				(length 2.54)
 				(name "A"

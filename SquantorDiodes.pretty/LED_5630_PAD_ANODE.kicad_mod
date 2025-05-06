@@ -62,7 +62,7 @@
 		)
 	)
 	(solder_paste_ratio -0.05)
-	(attr through_hole)
+	(attr smd)
 	(fp_poly
 		(pts
 			(xy -0.15 -0.15) (xy -0.8 -0.15) (xy -0.8 -0.55) (xy -0.15 -0.55)
