@@ -1,7 +1,7 @@
 (footprint "Header-0254-1X09-H010"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1 by 9 pinheader with 1.0mm holes and 2.54mm grid")
 	(tags "PIN HEADER")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6e73c0e9-dcd9-45d7-bdea-24b0f733f1b1")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -712,22 +700,22 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "ed5c14dc-c80d-412f-bfa0-180c23deb60a")
 	)
 	(pad "1" thru_hole roundrect
 		(at -10.16 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.2)
+		(roundrect_rratio 0.15)
 		(uuid "dfb76dab-c401-435e-8faf-2a7c5f95f03e")
 	)
 	(pad "2" thru_hole circle
 		(at -7.62 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -735,7 +723,7 @@
 	)
 	(pad "3" thru_hole circle
 		(at -5.08 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -743,7 +731,7 @@
 	)
 	(pad "4" thru_hole circle
 		(at -2.54 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -751,7 +739,7 @@
 	)
 	(pad "5" thru_hole circle
 		(at 0 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -759,7 +747,7 @@
 	)
 	(pad "6" thru_hole circle
 		(at 2.54 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -767,7 +755,7 @@
 	)
 	(pad "7" thru_hole circle
 		(at 5.08 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -775,7 +763,7 @@
 	)
 	(pad "8" thru_hole circle
 		(at 7.62 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -783,12 +771,13 @@
 	)
 	(pad "9" thru_hole circle
 		(at 10.16 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "1ae50825-ba1b-4007-9f3e-75a6069b9e71")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x09_P2.54mm_Vertical.step"
 		(offset
 			(xyz 10.16 0 0)

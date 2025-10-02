@@ -1,7 +1,7 @@
 (footprint "Header-0254-1X03-H010"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1 by 3 pinheader with 1.0mm holes and 2.54mm grid")
 	(tags "PIN HEADER")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ce4424ce-cc00-4cc9-95f7-8a0bd1516a09")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -292,21 +280,22 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "f19869db-3e7b-472a-b209-f79e32c273ce")
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at -2.54 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
 		(uuid "706b3995-b8fd-4ee6-92aa-9f65335bfa0c")
 	)
 	(pad "2" thru_hole circle
 		(at 0 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -314,12 +303,13 @@
 	)
 	(pad "3" thru_hole circle
 		(at 2.54 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "0a039046-6f51-4416-b2d2-8440fff494e6")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
 		(offset
 			(xyz 2.54 0 0)

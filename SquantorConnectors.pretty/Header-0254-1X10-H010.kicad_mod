@@ -1,7 +1,7 @@
 (footprint "Header-0254-1X10-H010"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1 by 10 pinheader with 1.0mm holes and 2.54mm grid")
 	(tags "PIN HEADER")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f9f4ca25-7001-4aea-96f6-79e0ed94535d")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -782,22 +770,22 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "982163b3-8fbe-46ea-af78-4880680b5c3b")
 	)
 	(pad "1" thru_hole roundrect
 		(at -11.43 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.2)
+		(roundrect_rratio 0.15)
 		(uuid "0db2d994-0b20-49c9-be32-9c3e41b1b267")
 	)
 	(pad "2" thru_hole circle
 		(at -8.89 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -805,7 +793,7 @@
 	)
 	(pad "3" thru_hole circle
 		(at -6.35 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -813,7 +801,7 @@
 	)
 	(pad "4" thru_hole circle
 		(at -3.81 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -821,7 +809,7 @@
 	)
 	(pad "5" thru_hole circle
 		(at -1.27 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -829,7 +817,7 @@
 	)
 	(pad "6" thru_hole circle
 		(at 1.27 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -837,7 +825,7 @@
 	)
 	(pad "7" thru_hole circle
 		(at 3.81 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -845,7 +833,7 @@
 	)
 	(pad "8" thru_hole circle
 		(at 6.35 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -853,7 +841,7 @@
 	)
 	(pad "9" thru_hole circle
 		(at 8.89 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -861,10 +849,11 @@
 	)
 	(pad "10" thru_hole circle
 		(at 11.43 0 180)
-		(size 1.4 1.4)
+		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "45928a34-d47a-4473-ae96-ac714d034c34")
 	)
+	(embedded_fonts no)
 )

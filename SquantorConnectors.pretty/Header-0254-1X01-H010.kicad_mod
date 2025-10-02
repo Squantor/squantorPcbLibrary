@@ -1,44 +1,168 @@
-(footprint "Header-0254-1X01-H010" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "1 by 1 pinheader with 1.0mm holes and 2.54mm grid")
-  (tags "PIN HEADER")
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -2.54) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 1923a44c-7751-4089-826c-58d409b77d03)
-  )
-  (fp_text value "Header-0254-1X01-H010" (at 0 2.1) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d7619a42-8cd0-47a2-b9e6-70a0e1097c59)
-  )
-  (fp_line (start -1.27 -0.635) (end -1.27 0.635)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp a820ed0f-8274-4b3c-89d4-6cb8f3077cfa))
-  (fp_line (start -1.27 0.635) (end -0.635 1.27)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp b9b413ba-8ec0-4e4c-9e6c-5aedd15afffd))
-  (fp_line (start -0.635 -1.27) (end -1.27 -0.635)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 46219434-8c67-4133-bcab-6b8c264e8b10))
-  (fp_line (start -0.635 -1.27) (end 0.635 -1.27)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp cf602e60-c69c-42f6-9560-1b841b88829d))
-  (fp_line (start 0.635 -1.27) (end 1.27 -0.635)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp d7425b4b-7b05-4145-a250-f3bd94bd6da5))
-  (fp_line (start 0.635 1.27) (end -0.635 1.27)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 005c2df4-f7cb-49e1-87f7-50a3b8a76173))
-  (fp_line (start 1.27 -0.635) (end 1.27 0.635)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 46eee913-af54-4457-9ba7-ddb543e32cf9))
-  (fp_line (start 1.27 0.635) (end 0.635 1.27)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 726c71f7-54f1-429e-bbd7-e276dc626085))
-  (fp_poly
-    (pts
-      (xy -1.524 0.8255)
-      (xy -1.524 1.524)
-      (xy -0.8255 1.524)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 95471f8e-c850-4777-8632-806a78f6c8b3))
-  (pad "1" thru_hole rect (at 0 0 180) (size 1.4 1.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 1ee30642-9093-49db-a530-e608cb62de75))
-  (model ":KICAD7_3DMODEL_DIR:Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Header-0254-1X01-H010"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1 by 1 pinheader with 1.0mm holes and 2.54mm grid")
+	(tags "PIN HEADER")
+	(property "Reference" "REF**"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "1923a44c-7751-4089-826c-58d409b77d03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Header-0254-1X01-H010"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "d7619a42-8cd0-47a2-b9e6-70a0e1097c59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26fc3f39-3a6c-4e78-93ba-93ff877490d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "273942e6-937d-4e17-884b-19f1f0d09c18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -1.27 -0.635)
+		(end -1.27 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a820ed0f-8274-4b3c-89d4-6cb8f3077cfa")
+	)
+	(fp_line
+		(start -1.27 0.635)
+		(end -0.635 1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9b413ba-8ec0-4e4c-9e6c-5aedd15afffd")
+	)
+	(fp_line
+		(start -0.635 -1.27)
+		(end -1.27 -0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46219434-8c67-4133-bcab-6b8c264e8b10")
+	)
+	(fp_line
+		(start -0.635 -1.27)
+		(end 0.635 -1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf602e60-c69c-42f6-9560-1b841b88829d")
+	)
+	(fp_line
+		(start 0.635 -1.27)
+		(end 1.27 -0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7425b4b-7b05-4145-a250-f3bd94bd6da5")
+	)
+	(fp_line
+		(start 0.635 1.27)
+		(end -0.635 1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "005c2df4-f7cb-49e1-87f7-50a3b8a76173")
+	)
+	(fp_line
+		(start 1.27 -0.635)
+		(end 1.27 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46eee913-af54-4457-9ba7-ddb543e32cf9")
+	)
+	(fp_line
+		(start 1.27 0.635)
+		(end 0.635 1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "726c71f7-54f1-429e-bbd7-e276dc626085")
+	)
+	(fp_poly
+		(pts
+			(xy -1.524 0.8255) (xy -1.524 1.524) (xy -0.8255 1.524)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "95471f8e-c850-4777-8632-806a78f6c8b3")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0 180)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "1ee30642-9093-49db-a530-e608cb62de75")
+	)
+	(embedded_fonts no)
+	(model ":KICAD7_3DMODEL_DIR:Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
