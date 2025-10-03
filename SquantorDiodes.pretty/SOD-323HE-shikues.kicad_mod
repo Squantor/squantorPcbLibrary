@@ -1,7 +1,7 @@
 (footprint "SOD-323HE-shikues"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOD-323HE specified by shikues")
 	(tags "SOD-323HE shikues")
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5c4b5640-d224-4f91-a97d-2c656387248e")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -179,7 +167,7 @@
 	(pad "1" smd roundrect
 		(at -0.675 0)
 		(size 1.85 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(thermal_bridge_angle 45)
 		(uuid "246526cb-6bfa-46a0-8d5e-fdb0b520d7c2")
@@ -187,12 +175,13 @@
 	(pad "2" smd roundrect
 		(at 1.15 0)
 		(size 0.9 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(thermal_bridge_angle 45)
 		(uuid "1b17c5a5-087a-4a04-aff1-1086e1d86f96")
 	)
-	(model ":KICAD8_3DMODEL_DIR:Diode_SMD.3dshapes/D_SOD-323F.step"
+	(embedded_fonts no)
+	(model ":KICAD9_3DMODEL_DIR:Diode_SMD.3dshapes/D_SOD-323F.step"
 		(offset
 			(xyz 0 0 0)
 		)

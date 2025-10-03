@@ -1,7 +1,7 @@
 (footprint "SOD-123-hand"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "diodes inc SOD-123 hand soldering optimized")
 	(tags "SOD-123 handsoldering")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "849bef32-7b2c-45ca-b298-d771ed90e27a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -72,7 +60,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4ce507d4-cba8-4735-a724-28936fe0adea")
 	)
@@ -239,18 +227,19 @@
 	(pad "1" smd roundrect
 		(at -1.7625 0)
 		(size 1.275 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "8f55924c-3415-493a-8f1e-d63a79e54ad0")
 	)
 	(pad "2" smd roundrect
 		(at 1.7625 0)
 		(size 1.275 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "0b3335d0-e28c-42ff-ad38-ae46d1625cf8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 		(offset
 			(xyz 0 0 0)
 		)

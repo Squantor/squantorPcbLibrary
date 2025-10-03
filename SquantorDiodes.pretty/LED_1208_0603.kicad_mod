@@ -1,43 +1,163 @@
-(footprint "LED_1208_0603" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "LED 1208 to 0603 universal footprint")
-  (tags "LED universal 1208 1206 0805 0603")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS")
-      (effects (font (size 0.8 0.8) (thickness 0.15)))
-    (tstamp 4acc828c-9806-4134-bc14-9a3178aaa880)
-  )
-  (fp_text value "LED_1208" (at 0 2.1) (layer "F.Fab")
-      (effects (font (size 0.8 0.8) (thickness 0.15)))
-    (tstamp b7c62abf-9442-4629-a40a-e0b617234052)
-  )
-  (fp_line (start -2.6 -1.5) (end -2.6 -1)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 52afafca-66ee-429c-8f4a-490c90fa22a6))
-  (fp_line (start -2.2 -1.5) (end -2.6 -1.5)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 27cd05d8-c34d-446a-ae9d-0f65d106ac1c))
-  (fp_line (start -0.2 0) (end 0.2 -0.4)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 088f464b-18bc-476f-8a71-47631614cfaf))
-  (fp_poly
-    (pts
-      (xy 0.2 -0.4)
-      (xy -0.2 0)
-      (xy 0.2 0.4)
-    )
-
-    (stroke (width 0.15) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 4baca5ac-6409-4f5c-8bd0-00eae050ada3))
-  (fp_line (start -2.6 -1.5) (end 2.6 -1.5)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 1ad2702d-af64-42b0-81db-d6dfc5f08a23))
-  (fp_line (start -2.6 1.5) (end -2.6 -1.5)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 0799ddc5-a15f-46c5-8730-abab2bd5d6da))
-  (fp_line (start 2.6 -1.5) (end 2.6 1.5)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a4dd5aee-2ed1-4e6f-a677-ae425ec8e8a9))
-  (fp_line (start 2.6 1.5) (end -2.6 1.5)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 0cc90e26-07ef-4f41-939e-93979bb1aaa3))
-  (pad "1" smd roundrect (at -1.4 0) (size 1.8 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 56d08f39-3506-4250-a88f-e602256b5ea7))
-  (pad "2" smd roundrect (at 1.4 0) (size 1.8 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp a8e2ae97-5f1c-4d36-83e6-d2de175acc10))
-  (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "LED_1208_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED 1208 to 0603 universal footprint")
+	(tags "LED universal 1208 1206 0805 0603")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "4acc828c-9806-4134-bc14-9a3178aaa880")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_1208"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "b7c62abf-9442-4629-a40a-e0b617234052")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0bcf962-adb1-43c4-961a-79695551968b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "711effac-4211-476a-8a82-c232d17d3ce6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 -1.5)
+		(end -2.6 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "52afafca-66ee-429c-8f4a-490c90fa22a6")
+	)
+	(fp_line
+		(start -2.2 -1.5)
+		(end -2.6 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "27cd05d8-c34d-446a-ae9d-0f65d106ac1c")
+	)
+	(fp_line
+		(start -0.2 0)
+		(end 0.2 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "088f464b-18bc-476f-8a71-47631614cfaf")
+	)
+	(fp_poly
+		(pts
+			(xy 0.2 -0.4) (xy -0.2 0) (xy 0.2 0.4)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4baca5ac-6409-4f5c-8bd0-00eae050ada3")
+	)
+	(fp_line
+		(start -2.6 -1.5)
+		(end 2.6 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ad2702d-af64-42b0-81db-d6dfc5f08a23")
+	)
+	(fp_line
+		(start -2.6 1.5)
+		(end -2.6 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0799ddc5-a15f-46c5-8730-abab2bd5d6da")
+	)
+	(fp_line
+		(start 2.6 -1.5)
+		(end 2.6 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a4dd5aee-2ed1-4e6f-a677-ae425ec8e8a9")
+	)
+	(fp_line
+		(start 2.6 1.5)
+		(end -2.6 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0cc90e26-07ef-4f41-939e-93979bb1aaa3")
+	)
+	(pad "1" smd roundrect
+		(at -1.4 0)
+		(size 1.8 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "56d08f39-3506-4250-a88f-e602256b5ea7")
+	)
+	(pad "2" smd roundrect
+		(at 1.4 0)
+		(size 1.8 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "a8e2ae97-5f1c-4d36-83e6-d2de175acc10")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
