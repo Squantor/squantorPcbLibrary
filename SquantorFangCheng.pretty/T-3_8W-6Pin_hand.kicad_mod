@@ -1,0 +1,167 @@
+(footprint "T-3_8W-6Pin_hand"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FangCheng 3.8W 6pin transformer for pushpull applications handsoldering")
+	(tags "transformer pushpull 3.8W handsoldering")
+	(property "Reference" "REF**"
+		(at 0 -3.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "514bd41f-166e-4fad-b8d5-74f5286491df")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3_8W_6Pin"
+		(at 0 3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e5a09408-790e-43d3-a0f1-d933f7059e37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b9e60f6-c45b-457b-9e04-ead804f15463")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c1cb017-44ed-435b-a54d-95a14b22276a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.9 -3.6)
+		(end -5.9 -3.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "90a5826e-6ad4-4a79-a0e9-321f5113ce83")
+	)
+	(fp_line
+		(start -5.9 -3.6)
+		(end -5.4 -3.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e808509d-69cd-4f9e-82d3-743a2362c505")
+	)
+	(fp_rect
+		(start -3.57 -3)
+		(end 3.57 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6d7ed04c-c87b-4403-9236-771d5426f40c")
+	)
+	(fp_rect
+		(start -5.9 -3.6)
+		(end 5.9 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4dd9685d-42a1-4a34-9006-b0ff0605c537")
+	)
+	(fp_rect
+		(start -3.57 -3)
+		(end 3.57 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e0e90bb0-9b25-46ab-8477-2f2c437f6dd6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "794b6f16-2832-4062-80c5-fa21f01f3aa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.77 -2.64)
+		(size 1.52 1.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "10ad76f5-3ec7-4254-bd8f-d9d220c89173")
+	)
+	(pad "2" smd roundrect
+		(at -4.77 0)
+		(size 1.52 1.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "586a8277-798c-4c3c-9dc2-49b3c4ee0e86")
+	)
+	(pad "3" smd roundrect
+		(at -4.8 2.64)
+		(size 1.52 1.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "5dd75b37-53f7-4b72-8b76-d78de63c55ff")
+	)
+	(pad "4" smd roundrect
+		(at 4.77 2.64)
+		(size 1.52 1.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "a661f92e-05dd-46db-9589-925651123f06")
+	)
+	(pad "5" smd roundrect
+		(at 4.77 0)
+		(size 1.52 1.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "a2bc1acf-2520-409b-980b-0dda84b892e3")
+	)
+	(pad "6" smd roundrect
+		(at 4.77 -2.64)
+		(size 1.52 1.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "04a2b6d6-af9a-444e-9efe-6a2092cf1006")
+	)
+	(embedded_fonts no)
+)
